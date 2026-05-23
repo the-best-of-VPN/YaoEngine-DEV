@@ -15,7 +15,12 @@ project "YaoEngine-core"
 
     includedirs{
         "src",
+        "Dep/GLFW/include",
+    }
 
+
+    links{
+        "GLFW",
     }
 
     defines{

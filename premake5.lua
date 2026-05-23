@@ -14,10 +14,6 @@ workspace "YaoEngine"
 
     outputDir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-    filter "platforms:Win64"
-        system "windows"
-        architecture "x86_64"
-
     filter "configurations:Debug"
         defines { "DEBUG" }
         symbols "On"
@@ -32,10 +28,16 @@ workspace "YaoEngine"
 
     filter {}
     
+
+
     group "Core"
         include "YaoEngine-core/core.lua"
     group ""
 
     group "Editor"
         include "YaoEngine-Editor/Editor.lua"
+    group ""
+    
+    group "YaoEngine-core Dependencies"
+        include "YaoEngine-core/Dep/GLFW/GLFW.lua"
     group ""
