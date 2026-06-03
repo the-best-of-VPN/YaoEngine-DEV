@@ -1,10 +1,9 @@
 workspace "YaoEngine"
     platforms {
-        "x86_64",
-        "x86",
-        "arm64",
-        "arm",
+        "x64",
     }
+    architecture(
+        "x64")
     
     configurations { "Debug", 
                     "Release",
@@ -40,4 +39,10 @@ workspace "YaoEngine"
     
     group "YaoEngine-core Dependencies"
         include "YaoEngine-core/Dep/GLFW/GLFW.lua"
+        include "CUDAdemo/CUDA.lua"
+        include"YaoEngine-core/Scriptcore/Scriptcore.lua"
+        include"YaoEngine-core/Dep/imgui/imgui.lua"
     group ""
+    group "Scripting"
+      
+    group""

@@ -13,10 +13,14 @@ project "YaoEngine-Editor"
         "src/**.cpp",
         "src/**.c",
     }
+ debugdir ("../build/bin/" .. outputDir .. "/%{prj.name}")
 
+postbuildcommands {
+    '{COPYDIR} "%{wks.location}YaoEngine-core/Dep/Mono/lib" "%{cfg.buildtarget.directory}/lib"'
+}
     includedirs{
         "../YaoEngine-core/src",
-
+        "../YaoEngine-core/Dep/glad",
     }
 
     links{
@@ -29,4 +33,4 @@ project "YaoEngine-Editor"
 
     filter "system:windows"
         systemversion "latest"
-    
+   

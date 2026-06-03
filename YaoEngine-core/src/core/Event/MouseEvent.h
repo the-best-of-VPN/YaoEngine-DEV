@@ -22,7 +22,8 @@ namespace YaoEngine {
 
 	class MouseButtonPressedEvent : public MouseEvent {
 	public:
-		MouseButtonPressedEvent();
+		MouseButtonPressedEvent(const MouseButton& code = MouseButton::None) :MouseEvent(code) {};
+		MouseButtonPressedEvent(const MouseButton&& code = MouseButton::None) :MouseEvent(code) {};
 		~MouseButtonPressedEvent() = default;
 		EVENT(MouseButtonPressed)
 	private:

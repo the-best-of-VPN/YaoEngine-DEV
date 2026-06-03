@@ -5,7 +5,6 @@ namespace YaoEngine {
 	public:
 		Editor() :YaoEngine(){};
 		virtual ~Editor() {};
-		void run() override {};
 	private:
 		
 	};

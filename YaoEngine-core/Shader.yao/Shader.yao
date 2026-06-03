@@ -1,0 +1,21 @@
+#vertexShader 
+#version 330 core
+layout (location = 0) in vec3 aPos
+void main()
+{
+	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
+	// Vertex shader code goes here
+}
+
+#end_vertexShader
+
+
+
+#fragmentShader
+#version 330 core
+
+void main()
+{
+	// Fragment shader code goes here
+}
+#end_fragmentShader

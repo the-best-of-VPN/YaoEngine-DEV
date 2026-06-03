@@ -43,6 +43,17 @@
 build/
 Build/
 build-*/
+bin/
+obj/
+
+# Visual Studio generated files
+.vs/
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj.user
 
 # CMake generated files
 CMakeFiles/

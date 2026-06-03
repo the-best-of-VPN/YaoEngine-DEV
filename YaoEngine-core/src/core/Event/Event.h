@@ -14,26 +14,28 @@ namespace YaoEngine {
 		~Event() = default;
 		virtual EventType GetEventType() const = 0;
 		virtual std::string ToString() const = 0;
+		bool handled = false;
 	};
 
 #define EVENT(type)\
 	static EventType GetStaticType() { return EventType::##type; }\
 	virtual EventType GetEventType() const override { return GetStaticType(); }\
 	virtual std::string ToString() const override { return #type; }
-}
-template<class  T,class Func>
-class EventDispatcher {
+
+
+	class EventDispatcher {
 	public:
-	EventDispatcher(Event& event) :m_event(event) {}
-	template<class  T>
-	bool Dispatch(Func func) {
-		if (m_event.GetEventType() == T::GetStaticType()) {
-			func(static_cast<T&>(m_event));
-			return true;
+		EventDispatcher(Event& event) :m_event(event) {}
+		template<class  T, class Func>
+		bool Dispatch(Func func) {
+			if (m_event.GetEventType() == T::GetStaticType() && m_event.handled==false) {
+				func(static_cast<T&>(m_event));
+				return true;
+			}
+			return false;
 		}
-		return false;
-	}
-private:
-	Event m_event;
-};
+	private:
+		Event& m_event;
+	};
+}
 #endif
