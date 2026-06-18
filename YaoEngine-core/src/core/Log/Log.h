@@ -22,30 +22,36 @@ namespace YaoEngine
 
 	}
 }
+namespace YaoEngine {
 #define YaoInfo(msg, ...)\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->SetLevel(YaoEngine::LogSystem::Level::Info);\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetYaoEngineLog()->SetLevel(LogSystem::Level::Info);\
+ LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
 #define Yaoerror(msg, ...)\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->SetLevel(YaoEngine::LogSystem::Level::Error);\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetYaoEngineLog()->SetLevel(LogSystem::Level::Error);\
+ LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
 #define YaoWarning(msg, ...)\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->SetLevel(YaoEngine::LogSystem::Level::Warn);\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetYaoEngineLog()->SetLevel(LogSystem::Level::Warn);\
+ LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
 #define YaoDebug(msg, ...)\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->SetLevel(YaoEngine::LogSystem::Level::Debug);\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetYaoEngineLog()->SetLevel(LogSystem::Level::Debug);\
+ LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
 #define YaoTrace(msg, ...)\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->SetLevel(YaoEngine::LogSystem::Level::Trace);\
- YaoEngine::LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetYaoEngineLog()->SetLevel(LogSystem::Level::Trace);\
+ LogSystem::YLog::GetYaoEngineLog()->Log(msg, ##__VA_ARGS__);
 #define clientInfo(msg, ...)\
- YaoEngine::LogSystem::YLog::GetclientLog()->SetLevel(YaoEngine::LogSystem::Level::Info);\
- YaoEngine::LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetclientLog()->SetLevel(LogSystem::Level::Info);\
+ LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);
 #define clienterror(msg, ...)\
- YaoEngine::LogSystem::YLog::GetclientLog()->SetLevel(YaoEngine::LogSystem::Level::Error);\
- YaoEngine::LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetclientLog()->SetLevel(LogSystem::Level::Error);\
+ LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);
 #define clientWarning(msg, ...)\
- YaoEngine::LogSystem::YLog::GetclientLog()->SetLevel(YaoEngine::LogSystem::Level::Warn);\
- YaoEngine::LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);
+ LogSystem::YLog::GetclientLog()->SetLevel(LogSystem::Level::Warn);\
+ LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);
 #define clientDebug(msg, ...)\
- YaoEngine::LogSystem::YLog::GetclientLog()->SetLevel(YaoEngine::LogSystem::Level::Debug);\
- YaoEngine::LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);		
+ LogSystem::YLog::GetclientLog()->SetLevel(LogSystem::Level::Debug);\
+ LogSystem::YLog::GetclientLog()->Log(msg, ##__VA_ARGS__);	
+}
+#define YAO_LOG_INIT(msg,...)\
+do{\
+ YaoInfo(msg, ##__VA_ARGS__);\
+}while(0);

@@ -1,55 +1,40 @@
-#include"./VertexArray.h"
+#include "VertexArray.h"
 #include<glad/glad.h>
-
-
-namespace YaoEngine
-{
-    static unsigned int ShaderDataTypeSize(ShaderDataType type)
-    {
-        switch (type)
-        {
-        case ShaderDataType::Float:  return 4;
-        case ShaderDataType::Float2: return 4 * 2;
-        case ShaderDataType::Float3: return 4 * 3;
-        case ShaderDataType::Float4: return 4 * 4;
-
-        case ShaderDataType::Mat3: return 4 * 3 * 3;
-        case ShaderDataType::Mat4: return 4 * 4 * 4;
-        }
-
-        return 0;
-    }
-
-	VertexArray::VertexArray(const VertexBuffer vertexBuffer,const IndexBuffer  indexBuffer)
+#include<assert.h>
+namespace YaoEngine {
+	VertexArray::VertexArray(float* vertices, unsigned int* indices, unsigned int indexCount, unsigned int vertexCount, const BufferLayout& layout)
 	{
-		m_vertexBuffer=VertexBuffer(vertexBuffer);
-		m_indexBuffer=IndexBuffer(indexBuffer);
-		glCreateVertexArrays(1, &m_rendererID);
-	}
-	VertexArray::~VertexArray() {
-		glDeleteVertexArrays(1, &m_rendererID);
-	}
-
-	void VertexArray::Bind(BufferLayout& layout) const
-	{
-		for (auto& a : layout.GetElements())
+		glCreateVertexArrays(1, &m_RendererID);
+		m_VertexBuffer = CreateRef<VertexBuffer>(vertices, vertexCount, layout);
+		m_IndexBuffer = CreateRef<IndexBuffer>(indices, indexCount);
+		glBindVertexArray(m_RendererID);
+		m_VertexBuffer->Bind();
+		m_IndexBuffer->Bind();
+		unsigned int index = 0;
+		for (const auto& element : layout.GetElements())
 		{
-			glEnableVertexAttribArray(a.Offset);
-			glVertexAttribPointer(a.Offset, a.Size / ShaderDataTypeSize(a.Type), GL_FLOAT, a.Normalized ? GL_TRUE : GL_FALSE, layout.GetStride(), (const void*)a.Offset);
-		}
-		m_vertexBuffer.Bind();
-
-		glBindVertexArray(m_rendererID);
-		m_indexBuffer.Bind();
+			glEnableVertexAttribArray(index);
+			glVertexAttribPointer(
+				index,
+				element.GetComponentCount(),
+				GL_FLOAT,
+				element.Normalized ? GL_TRUE : GL_FALSE,
+				layout.GetStride(),
+				(const void*)(intptr_t)element.Offset
+			);
+			index++;
+		}	
+	}
+	VertexArray::~VertexArray()
+	{
+		glDeleteVertexArrays(1, &m_RendererID);
+	}
+	void VertexArray::Bind() const
+	{
+		glBindVertexArray(m_RendererID);
 	}
 	void VertexArray::UnBind() const
 	{
 		glBindVertexArray(0);
-		m_vertexBuffer.UnBind();
-		m_indexBuffer.UnBind();
 	}
-
-
-
-
 }

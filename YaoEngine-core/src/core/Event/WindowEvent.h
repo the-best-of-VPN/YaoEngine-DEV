@@ -6,6 +6,8 @@ namespace YaoEngine {
 		WindowResizeEvent(int w, int h) : m_Width(w), m_Height(h) {}
 		~WindowResizeEvent() = default;
 		EVENT(WindowResize)
+		inline 	unsigned int GetWidth() const { return m_Width; }
+		inline	unsigned int GetHeight() const { return m_Height; }
 	private:
 		unsigned int m_Width, m_Height;
 	};

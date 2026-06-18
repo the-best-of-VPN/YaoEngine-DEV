@@ -1,7 +1,7 @@
 #pragma once
 #include"./Entity.h"
 #include"Component.h"
-#include"../../core.h"
+#include"../../"
 #include<vector>
 namespace YaoEngine {
 	class Scene {

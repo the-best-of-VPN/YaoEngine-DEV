@@ -5,19 +5,22 @@
 extern  YaoEngine::YaoEngine* CreateApp();
 namespace YaoEngine {
 	
-	int Main(const CommandLine &command)
+	int Main(const CommandLine& command)
 	{
 		LogSystem::YLog::Init();
 		auto app = CreateApp();
-		YaoTrace("YaoEngine Trace Log Initialized")
+		//demo
+		//int sd = 0;
+		//YAO_LOG_INIT("YaoEngine Init %d", sd)
+		//YaoInfo("CommandLine parsed");
 		app->run();
 		delete app;
 		return 0;
 	}
 }
-int main(int args, char* argv[])
+int main(int args, char**argv)
 {
 	YaoEngine::CommandLine command(args, argv);
-	return YaoEngine::Main(command);
+	return Main(command);
 }
 

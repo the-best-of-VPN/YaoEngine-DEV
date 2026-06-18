@@ -2,11 +2,27 @@
 #include<glad/glad.h>
 namespace YaoEngine
 {
-	VertexBuffer::VertexBuffer(const void* data, unsigned int size)
+	VertexBuffer::VertexBuffer(const void* data, unsigned int size, const BufferLayout& layout)
+		: m_layout(layout)
 	{
 		glCreateBuffers(1, &m_rendererID);
 		glBindBuffer(GL_ARRAY_BUFFER, m_rendererID);
-		glBufferData(GL_ARRAY_BUFFER, size, data, GL_STATIC_DRAW);
+		glBufferData(GL_ARRAY_BUFFER, size*sizeof(float), data, GL_STATIC_DRAW);
+	}
+	VertexBuffer::VertexBuffer(VertexBuffer&& other) noexcept
+		: m_rendererID(other.m_rendererID)
+	{
+		other.m_rendererID = 0;
+	}
+	VertexBuffer& VertexBuffer::operator=(VertexBuffer&& other) noexcept
+	{
+		if (this != &other)
+		{
+			glDeleteBuffers(1, &m_rendererID);
+			m_rendererID = other.m_rendererID;
+			other.m_rendererID = 0;
+		}
+		return *this;
 	}
 	VertexBuffer::~VertexBuffer()
 	{

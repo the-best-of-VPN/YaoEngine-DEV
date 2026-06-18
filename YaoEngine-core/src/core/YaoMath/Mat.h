@@ -105,6 +105,9 @@ namespace YaoEngine {
 				std::cout << std::endl;
 			}
 		}
+		const float* data() {
+			return m_data.data();
+		}
 	private:
 		std::array <t,Row* Col> m_data;
 	};

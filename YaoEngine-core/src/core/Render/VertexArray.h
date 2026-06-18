@@ -1,108 +1,25 @@
 #pragma once
-#include<list>
-#include<vector>
-#include<string>
+#include<core.h>
 #include"IndexBuffer.h"
 #include"VertexBuffer.h"
-namespace YaoEngine
-{
-    enum class ShaderDataType
-    {
-        None = 0,
-
-        Float,
-        Float2,
-        Float3,
-        Float4,
-
-        Mat3,
-        Mat4,
-
-        Int,
-        Int2,
-        Int3,
-        Int4,
-
-        Bool
-    };
-    static unsigned int ShaderDataTypeSize(ShaderDataType type);
-  
-    struct BufferElement
-    {
-        std::string Name;
-
-        ShaderDataType Type;
-
-        uint32_t Size;
-        size_t Offset;
-
-        bool Normalized;
-
-        BufferElement() = default;
-
-        BufferElement(
-            ShaderDataType type,
-            const std::string& name,
-            bool normalized = false)
-            :
-            Name(name),
-            Type(type),
-            Size(ShaderDataTypeSize(type)),
-            Offset(0),
-            Normalized(normalized)
-        {
-        }
-    };
-    class BufferLayout
-    {
-    public:
-        BufferLayout(const std::initializer_list<BufferElement>& elements)
-            :
-            m_Elements(elements)
-        {
-            CalculateOffsetsAndStride();
-        }
-
-        uint32_t GetStride() const { return m_Stride; }
-
-        const std::vector<BufferElement>& GetElements() const
-        {
-            return m_Elements;
-        }
-
-    private:
-        void CalculateOffsetsAndStride()
-        {
-            size_t offset = 0;
-            m_Stride = 0;
-
-            for (auto& element : m_Elements)
-            {
-                element.Offset = offset;
-
-                offset += element.Size;
-                m_Stride += element.Size;
-            }
-        }
-    private:
-        std::vector<BufferElement> m_Elements;
-        unsigned int m_Stride = 0;
-    };
+namespace YaoEngine {
 	class VertexArray
 	{
 	public:
-		VertexArray(const VertexBuffer,const  IndexBuffer);
+		VertexArray(float* vertices, unsigned int* indices, unsigned int indexCount, unsigned int vertexCount, const BufferLayout& layout);
+		//VertexArray() = delete;
+		VertexArray(const VertexArray&) = delete;
 		~VertexArray();
-
-		void Bind(BufferLayout& layout) const;
+		inline Ref<VertexBuffer> GetVertexBuffer() { return m_VertexBuffer; }
+		inline Ref<IndexBuffer> GetIndexBuffer() { return m_IndexBuffer; }
+		
+		void Bind() const;
 		void UnBind() const;
 
-		inline unsigned int GetID() const { return m_rendererID; }
-		IndexBuffer& GetIndexBuffer() { return m_indexBuffer; }
+		inline unsigned int GetID() const { return m_RendererID; }
 	private:
-		unsigned int m_rendererID;
-		IndexBuffer m_indexBuffer;
-		VertexBuffer m_vertexBuffer;
-
+		Ref<VertexBuffer> m_VertexBuffer;
+		Ref<IndexBuffer> m_IndexBuffer;
+		unsigned int m_RendererID;
 	};
 }
