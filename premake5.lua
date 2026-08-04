@@ -36,6 +36,11 @@ workspace "YaoEngine"
     group "Editor"
         include "YaoEngine-Editor/Editor.lua"
     group ""
+
+    group "Applications"
+        include "YaoEngine-runtime/runtime.lua"
+        include "YaoEngine-Launcher/Launther.lua"
+    group ""
     
     group "YaoEngine-core Dependencies"
         include "YaoEngine-core/Dep/GLFW/GLFW.lua"

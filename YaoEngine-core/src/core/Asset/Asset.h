@@ -1,5 +1,6 @@
 #pragma once 
 namespace YaoEngine {
+	using AssetHandle = unsigned long;
 	enum class AssetType
 	{
 		None = 0,

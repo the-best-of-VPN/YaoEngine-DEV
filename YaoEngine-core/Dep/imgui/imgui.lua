@@ -7,7 +7,7 @@ project "ImGui"
 
     cppdialect "C++17"
 
-    staticruntime "off"
+    staticruntime "On"
 
     targetdir ("../build/bin/" .. outputDir .. "/%{prj.name}")
     objdir ("../build/intermediate/" .. outputDir .. "/%{prj.name}")

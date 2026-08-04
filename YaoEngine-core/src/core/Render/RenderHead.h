@@ -1,5 +1,6 @@
 #pragma once
 #include"IndexBuffer.h"
+#include"Framebuffer.h"
 #include"Material/Material.h"
 #include"UniformBuffer.h"
 #include"VertexArray.h"

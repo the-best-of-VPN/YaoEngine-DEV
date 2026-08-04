@@ -1,8 +1,29 @@
 #include "VertexArray.h"
 #include<glad/glad.h>
 #include<assert.h>
+#include<cstdint>
 namespace YaoEngine {
-	VertexArray::VertexArray(float* vertices, unsigned int* indices, unsigned int indexCount, unsigned int vertexCount, const BufferLayout& layout)
+	namespace {
+		void SetupVertexAttributes(const BufferLayout& layout)
+		{
+			unsigned int index = 0;
+			for (const auto& element : layout.GetElements())
+			{
+				glEnableVertexAttribArray(index);
+				glVertexAttribPointer(
+					index,
+					element.GetComponentCount(),
+					GL_FLOAT,
+					element.Normalized ? GL_TRUE : GL_FALSE,
+					layout.GetStride(),
+					reinterpret_cast<const void*>(static_cast<intptr_t>(element.Offset))
+				);
+				index++;
+			}
+		}
+	}
+
+	VertexArray::VertexArray(const float* vertices, const unsigned int* indices, unsigned int indexCount, unsigned int vertexCount, const BufferLayout& layout)
 	{
 		glCreateVertexArrays(1, &m_RendererID);
 		m_VertexBuffer = CreateRef<VertexBuffer>(vertices, vertexCount, layout);
@@ -10,20 +31,19 @@ namespace YaoEngine {
 		glBindVertexArray(m_RendererID);
 		m_VertexBuffer->Bind();
 		m_IndexBuffer->Bind();
-		unsigned int index = 0;
-		for (const auto& element : layout.GetElements())
-		{
-			glEnableVertexAttribArray(index);
-			glVertexAttribPointer(
-				index,
-				element.GetComponentCount(),
-				GL_FLOAT,
-				element.Normalized ? GL_TRUE : GL_FALSE,
-				layout.GetStride(),
-				(const void*)(intptr_t)element.Offset
-			);
-			index++;
-		}	
+		SetupVertexAttributes(layout);
+	}
+
+	VertexArray::VertexArray(unsigned int vertexBufferSize, const unsigned int* indices, unsigned int indexCount, const BufferLayout& layout)
+	{
+		glCreateVertexArrays(1, &m_RendererID);
+		m_VertexBuffer = CreateRef<VertexBuffer>(vertexBufferSize, layout);
+		m_IndexBuffer = CreateRef<IndexBuffer>(indices, indexCount);
+
+		glBindVertexArray(m_RendererID);
+		m_VertexBuffer->Bind();
+		m_IndexBuffer->Bind();
+		SetupVertexAttributes(layout);
 	}
 	VertexArray::~VertexArray()
 	{

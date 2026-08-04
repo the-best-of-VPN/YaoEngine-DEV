@@ -1,12 +1,12 @@
 filter {}
 project "ScriptCore"
     language "C#"
-	dotnetframework "net8.0"
+	dotnetframework "4.7.2"
     kind "SharedLib"
 	clr "Unsafe"
 
-    targetdir ("../build/bin/" .. outputDir .. "/%{prj.name}")
-    objdir ("../build/intermediate/" .. outputDir .. "/%{prj.name}")
+    targetdir ("%{wks.location}/build/bin/" .. outputDir .. "/%{prj.name}")
+    objdir ("%{wks.location}/build/intermediate/" .. outputDir .. "/%{prj.name}")
 
     files {
         "src/**.cs",

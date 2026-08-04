@@ -22,12 +22,15 @@ project "YaoEngine-core"
         "src/core",
         "Dep/GLFW/include",
         "Dep/glad/include",
+        "Dep/glm",
+        "Dep/imgui/imgui",
          "%{MonoPath}/include/mono-2.0",
          "../CUDAdemo/src",
     }
     links{
         "GLFW",
         "CUDA",
+        "ImGui",
          "mono-2.0-sgen",
     }
 

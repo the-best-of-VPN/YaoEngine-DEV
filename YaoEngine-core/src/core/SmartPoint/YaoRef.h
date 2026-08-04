@@ -1,6 +1,6 @@
 #pragma once
 #include<atomic>
-namespace YaoEngine {
+namespace YaoEngine {             
 	class YaoRefcount
 	{
 	public:

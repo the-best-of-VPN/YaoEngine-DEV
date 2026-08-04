@@ -1,5 +1,9 @@
 #pragma once
 #include"../Log/Log.h"
+#include<cstdint>
+#include<string>
+#include<utility>
+#include<vector>
 namespace YaoEngine {
 	enum class ShaderDataType
 	{
@@ -87,6 +91,7 @@ namespace YaoEngine {
 	{
 	public:
 		VertexBuffer(const void* data, unsigned int size, const BufferLayout& layout);
+		VertexBuffer(unsigned int size, const BufferLayout& layout);
 		VertexBuffer() = default;
 		VertexBuffer(const VertexBuffer&) = delete;
 		VertexBuffer& operator=(const VertexBuffer&) = delete;
@@ -96,13 +101,14 @@ namespace YaoEngine {
 
 		void Bind() const;
 		void UnBind() const;
+		void SetData(const void* data, unsigned int size) const;
 		void SetLayout(const BufferLayout& layout) { m_layout = layout; }
 		void SetLayout(BufferLayout&& layout) { m_layout = std::move(layout); }
 		BufferLayout GetLayout() const { return m_layout; }
 
 		inline unsigned int GetID() const { return m_rendererID; }
 	private:
-		unsigned int m_rendererID;
+		unsigned int m_rendererID = 0;
 		BufferLayout m_layout;
 	};
 }

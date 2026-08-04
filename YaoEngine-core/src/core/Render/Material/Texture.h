@@ -28,8 +28,6 @@ namespace YaoEngine
 		Texture2D() = default;
 		~Texture2D();
 
-		//static Ref<Texture2D> CreateFallback();
-
 		void Bind(unsigned int slot = 0) const override;
 		void UnBind() const override;
 		Type GetType() const override;

@@ -1,6 +1,7 @@
 #include<glad/glad.h>
 #include<sstream>
 #include<fstream>
+#include<glm/gtc/type_ptr.hpp>
 #include"Shader.h"
 #include"../../Log/Log.h"
 namespace YaoEngine {
@@ -36,8 +37,7 @@ namespace YaoEngine {
 			GLchar infoLog[1024];
 			glGetShaderInfoLog(fragmentshader, 1024, nullptr, infoLog);
 
-			Yaoerror("%s Shader Compile Error:\n%s",
-				infoLog);
+			Yaoerror("Fragment Shader Compile Error:\n%s", infoLog);
 		}
 
 		m_rendererID = glCreateProgram();
@@ -104,6 +104,14 @@ namespace YaoEngine {
 	void Shader::SetUniformMat4f(const std::string& name, Mat<4, 4, float> value)
 	{
 		glUniformMatrix4fv(glGetUniformLocation(m_rendererID, name.c_str()), 1, GL_TRUE, value.GetData().data());
+	}
+	void Shader::SetUniformMat4f(const std::string& name, const glm::mat4& value)
+	{
+		glUniformMatrix4fv(glGetUniformLocation(m_rendererID, name.c_str()), 1, GL_FALSE, glm::value_ptr(value));
+	}
+	void Shader::SetUniformMat4f(const std::string& name, const float* value, bool transpose)
+	{
+		glUniformMatrix4fv(glGetUniformLocation(m_rendererID, name.c_str()), 1, transpose ? GL_TRUE : GL_FALSE, value);
 	}
 	void Shader::SetUniform1i(const std::string& name, int value)
 	{

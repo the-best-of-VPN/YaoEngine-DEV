@@ -6,7 +6,8 @@ namespace YaoEngine {
 	class VertexArray
 	{
 	public:
-		VertexArray(float* vertices, unsigned int* indices, unsigned int indexCount, unsigned int vertexCount, const BufferLayout& layout);
+		VertexArray(const float* vertices, const unsigned int* indices, unsigned int indexCount, unsigned int vertexCount, const BufferLayout& layout);
+		VertexArray(unsigned int vertexBufferSize, const unsigned int* indices, unsigned int indexCount, const BufferLayout& layout);
 		//VertexArray() = delete;
 		VertexArray(const VertexArray&) = delete;
 		~VertexArray();
@@ -20,6 +21,6 @@ namespace YaoEngine {
 	private:
 		Ref<VertexBuffer> m_VertexBuffer;
 		Ref<IndexBuffer> m_IndexBuffer;
-		unsigned int m_RendererID;
+		unsigned int m_RendererID = 0;
 	};
 }

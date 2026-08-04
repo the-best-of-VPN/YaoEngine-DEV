@@ -1,5 +1,7 @@
 #pragma once
 #include<filesystem>
+#include<string>
+#include<glm/glm.hpp>
 #define  Yao_Game_Matrix
 #include"../../YaoMath/Math.h"
 namespace YaoEngine
@@ -13,6 +15,8 @@ namespace YaoEngine
 		void UnBind() const;
 
 		void SetUniformMat4f(const std::string& name,Mat<4,4,float>  value);
+		void SetUniformMat4f(const std::string& name, const glm::mat4& value);
+		void SetUniformMat4f(const std::string& name, const float* value, bool transpose = false);
 		void SetUniform1i(const std::string& name, int value);
 		void SetUniform4f(const std::string& name, float v0, float v1, float v2, float v3);
 		void SetUniform3f(const std::string& name, float v0, float v1, float v2);

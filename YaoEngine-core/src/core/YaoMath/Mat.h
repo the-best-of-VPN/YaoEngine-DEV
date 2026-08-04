@@ -1,148 +1,139 @@
 #pragma once
-#include<array>
+
+#include <array>
+#include <cmath>
+#include <iostream>
 #include <random>
-#include<iostream>
-//#define Yao_AI_Matrix 
-//#define Yao_Game_Matrix
+#include <type_traits>
+
 namespace YaoEngine {
-	//游戏矩阵和AI矩阵 编译时期和runtime矩阵分开
+
 #ifdef Yao_Game_Matrix
-	template<unsigned int Row,unsigned int Col,class t>
+	template<unsigned int Row, unsigned int Col, class T>
 	class Mat {
 	public:
-		Mat() {
-			for (int i = 0;i < Row * Col;++i)
+		Mat()
+		{
+			m_data.fill(T{});
+		}
+
+		template<class ...Args, class = std::enable_if_t<(std::is_convertible_v<Args, T> && ...)>>
+		Mat(Args... args)
+		{
+			static_assert(sizeof...(Args) <= Row * Col, "Too many values for matrix");
+			m_data.fill(T{});
+
+			if constexpr (sizeof...(Args) > 0)
 			{
-				m_data[i] =static_cast<t>(utill::RandomT<t>(0, 100000000));
+				T values[] = { static_cast<T>(args)... };
+				for (unsigned int i = 0; i < sizeof...(Args); ++i)
+					m_data[i] = values[i];
 			}
 		}
-		template<class ...Arg>
-		Mat(Arg... args) {
-			constexpr unsigned int size = sizeof...(args);
-			if constexpr (std::is_same_v < arg, Mat<1, Col, t>>&&...&&size==Row)
+
+		template<unsigned int Row2, unsigned int Col2>
+		Mat<Row, Col2, T> operator*(const Mat<Row2, Col2, T>& other) const
+		{
+			static_assert(Col == Row2, "Matrix multiplication size mismatch");
+
+			Mat<Row, Col2, T> result;
+			for (unsigned int row = 0; row < Row; ++row)
 			{
-				int c = 0;
-				([&](Arg...a) {
-					for (int i = 0; i < Col; i++)
-					this->GetData()[c*Col+i] = a.GetData()[i];
-					c++;
-					}(args),...)
-			}
-			else if constexpr (std::is_same_v < arg, Mat<Row, 1, t>>&&...&size==Col)
-			{
-				int c = 0;
-				([&](Arg... a) {
-				
-					for (int i = 0; i < Row; ++i)
-					{
-						this->GetData()[c + i * Col] = a.GetData()[i];
-					}
-					}(args), ...)
-			}
-			else if constexpr (std::is_same_v < arg, t>&... && size <= Row * Col)
-			{
-				Mat temp;
-				int c=0;
-				([&](Arg...a) {
-					m_data[c] = a->GetData()[c];
-					c++;
-					}(args), ...)
-				this->m_data = temp;
-			}
-		};
-		~Mat() {};
-		/*
-		0  1  2  3  4		0  1  2 	
-		5  6  7  8  9    *  3  4  5
-		10 11 12 13 14      6  7  8
-							9  10 11
-							12 13 14
-		*/
-		template<unsigned int Row2,unsigned int Col2>
-		Mat<Row,Col2, t> operator* (Mat<Row2, Col2, t> other) {
-			static_assert(Col == Row2, "Matrix multiplication requires the number of columns in the first matrix to be equal to the number of rows in the second matrix.");
-			Mat < Row, Col2, t> result;
-			for (int i = 0;i < Row;++i)
-			{
-				for (int j = 0;j < Col2;++j)
+				for (unsigned int col = 0; col < Col2; ++col)
 				{
-					for (int k = 0;k < Col;++k)
-					{
-						result.GetData()[i * Col2 + j] = result.GetData()[i * Col2 + j] + this->GetData()[i * Col + k] * other.GetData()[k * Col2 + j];
-					}
+					T value{};
+					for (unsigned int k = 0; k < Col; ++k)
+						value += m_data[row * Col + k] * other.GetData()[k * Col2 + col];
+
+					result.GetData()[row * Col2 + col] = value;
 				}
 			}
 			return result;
 		}
-		Mat operator+ (Mat other) {
-			Mat result;
-			for (int i = 0;i < Row * Col;++i)
-			{
-				result.GetData()[i] = this->GetData()[i] + other.GetData()[i];
-			}
-			return result;
-		}
-		Mat operator*(const t &other)
+
+		Mat operator+(const Mat& other) const
 		{
 			Mat result;
-			for (int i = 0;i < Row * Col;++i)
-			{
-				result.GetData()[i] = this->GetData()[i] * other;
-			}
+			for (unsigned int i = 0; i < Row * Col; ++i)
+				result.GetData()[i] = m_data[i] + other.GetData()[i];
 			return result;
 		}
 
-		std::array <t, Row* Col>& GetData()  { return m_data; }
-
-		void Print()
+		Mat operator-(const Mat& other) const
 		{
-			for (int i = 0; i < Row; ++i)
+			Mat result;
+			for (unsigned int i = 0; i < Row * Col; ++i)
+				result.GetData()[i] = m_data[i] - other.GetData()[i];
+			return result;
+		}
+
+		Mat operator*(const T& scalar) const
+		{
+			Mat result;
+			for (unsigned int i = 0; i < Row * Col; ++i)
+				result.GetData()[i] = m_data[i] * scalar;
+			return result;
+		}
+
+		T& operator[](unsigned int index) { return m_data[index]; }
+		const T& operator[](unsigned int index) const { return m_data[index]; }
+
+		std::array<T, Row * Col>& GetData() { return m_data; }
+		const std::array<T, Row * Col>& GetData() const { return m_data; }
+
+		void Print() const
+		{
+			for (unsigned int row = 0; row < Row; ++row)
 			{
-				for (int j = 0; j < Col; ++j)
-				{
-					std::cout << m_data[i * Col + j] << " ";
-				}
+				for (unsigned int col = 0; col < Col; ++col)
+					std::cout << m_data[row * Col + col] << " ";
 				std::cout << std::endl;
 			}
 		}
-		const float* data() {
-			return m_data.data();
-		}
+
+		const T* data() const { return m_data.data(); }
+
 	private:
-		std::array <t,Row* Col> m_data;
+		std::array<T, Row * Col> m_data;
 	};
-	template<unsigned int Row,class t>
-	using Colvec = Mat<Row, 1, t>;
-	template<unsigned int Col, class t>
-	using Rowvec = Mat<1, Col, t>;
-#elif Yao_AI_Matrix 1
-	template <class any>
-	class Mat {
-	public:
-		static void SetSize(const unsigned int&& Col, const unsigned int&& Row) {
-			this->Col = Col;this->Row = Row;
-		};
-		static void SetSize(const unsigned int&  Col,  const unsigned int& Row) {
-			this->Col = Col;this->Row = Row;
-		};
 
-		unsigned int Row, Col;
-		Mat() {static_assert(Row != 0 && Col != 0);
-			for (int i = 0;i < Row * Col;++i)
-			{
-				m_data[i] = static_cast<t>(utill::RandomDouble(0, 100000000));
-			}
-		}
-		template <class ...arg>
-		Mat(arg... args) { 
-		static_assert(std::is_same_v< arg, any>&&...&&sizeof...(arg) <= Row * Col);
-		(,...)
+	template<unsigned int Row, class T>
+	using Colvec = Mat<Row, 1, T>;
 
-		};
-	};
-	
+	template<unsigned int Col, class T>
+	using Rowvec = Mat<1, Col, T>;
+
+	template<unsigned int Row, class T>
+	T Dot(const Mat<Row, 1, T>& left, const Mat<Row, 1, T>& right)
+	{
+		T result{};
+		for (unsigned int i = 0; i < Row; ++i)
+			result += left[i] * right[i];
+		return result;
+	}
+
+	template<class T>
+	Mat<4, 1, T> Cross(const Mat<4, 1, T>& left, const Mat<4, 1, T>& right)
+	{
+		return Mat<4, 1, T>(
+			left[1] * right[2] - left[2] * right[1],
+			left[2] * right[0] - left[0] * right[2],
+			left[0] * right[1] - left[1] * right[0],
+			T{}
+		);
+	}
+
+	template<unsigned int Row, class T>
+	Mat<Row, 1, T> Normalize(const Mat<Row, 1, T>& value)
+	{
+		T length = std::sqrt(Dot(value, value));
+		if (length == T{})
+			return Mat<Row, 1, T>();
+
+		return value * (static_cast<T>(1) / length);
+	}
 #endif
-	
+
 	namespace utill {
 		template<class T>
 		T RandomT(T min, T max)
@@ -155,22 +146,13 @@ namespace YaoEngine {
 				std::uniform_int_distribution<T> dist(min, max);
 				return dist(gen);
 			}
-			else if constexpr (std::is_floating_point_v<T>)
+			else
 			{
 				std::uniform_real_distribution<T> dist(min, max);
 				return dist(gen);
 			}
 		}
+
 		double RandomDouble(double min, double max);
 	}
 }
-/*
-矩阵数据结构行为序列
-1个6*5矩阵
-m_data[0]  m_data[1]  m_data[2]  m_data[3]  m_data[4]		
-m_data[5]  m_data[6]  m_data[7]  m_data[8]  m_data[9]
-m_data[10] m_data[11] m_data[12] m_data[13] m_data[14
-m_data[15] m_data[16] m_data[17] m_data[18] m_data[19
-m_data[21] m_data[22] m_data[23] m_data[24] m_data[25
-m_data[26] m_data[27] m_data[28] m_data[29] m_data[30
-*/

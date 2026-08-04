@@ -1,9 +1,14 @@
 #include<Yao.h>
+
+
 namespace YaoEngine {
 	class Editor :public YaoEngine
 	{
 	public:
-		Editor() :YaoEngine(){};
+		Editor() :YaoEngine()
+		{
+			
+		};
 		virtual ~Editor() {};
 	private:
 		
