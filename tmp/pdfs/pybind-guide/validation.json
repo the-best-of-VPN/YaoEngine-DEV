@@ -1,0 +1,11 @@
+{
+  "source_examples_passed": true,
+  "configuration": "Release x64",
+  "python": "CPython 3.12.14 x64",
+  "advance": 4.0,
+  "py_runner": "x = 4",
+  "engine_demo": 6,
+  "utf8_option_added_after_build": true,
+  "final_premake_generation_passed": true,
+  "final_configuration_rebuilt": false
+}

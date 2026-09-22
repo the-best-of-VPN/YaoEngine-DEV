@@ -1,0 +1,20 @@
+[
+  {
+    "configuration": "Debug",
+    "platform": "x64",
+    "build_exit": 1,
+    "passed": false
+  },
+  {
+    "configuration": "Release",
+    "platform": "x64",
+    "build_exit": 1,
+    "passed": false
+  },
+  {
+    "configuration": "Dist",
+    "platform": "x64",
+    "build_exit": 1,
+    "passed": false
+  }
+]
