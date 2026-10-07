@@ -25,8 +25,8 @@ namespace YaoEngine
     };
     class Archetype {
     public:
-        Archetype() {};
-        ~Archetype() {};
+        Archetype();
+        ~Archetype();
         
     private:
         constexpr static std::size_t AlignUp(

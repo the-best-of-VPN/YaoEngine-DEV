@@ -1,0 +1,9423 @@
+{
+  "blender_version": "5.1.0",
+  "source": "D:\\dev\\YaoEngine DEV\\YaoEngine-DEV\\artifacts\\orc_warrior\\orc_warrior.blend",
+  "collections": {
+    "01 • Body sculpt": {
+      "count": 1,
+      "objects": [
+        "ORC • unified muscular body"
+      ]
+    },
+    "02 • Face, tusks & hair": {
+      "count": 43,
+      "objects": [
+        "ORC • sculpted head & pointed ears",
+        "Deep eye socket",
+        "Amber eye",
+        "Slit pupil",
+        "Catchlight",
+        "Lower eyelid",
+        "Nostril",
+        "Inset ear cartilage",
+        "Curved ivory tusk",
+        "Tusk brass cuff",
+        "Deep eye socket.001",
+        "Amber eye.001",
+        "Slit pupil.001",
+        "Catchlight.001",
+        "Lower eyelid.001",
+        "Nostril.001",
+        "Inset ear cartilage.001",
+        "Curved ivory tusk.001",
+        "Tusk brass cuff.001",
+        "Set grim mouth",
+        "Heavy lower lip",
+        "Small lower tooth",
+        "Small lower tooth.001",
+        "Small lower tooth.002",
+        "Healed eye scar",
+        "Healed cheek scar",
+        "Cheek warpaint",
+        "Cheek warpaint.001",
+        "Brass ear hoop",
+        "Brass ear hoop.001",
+        "Hair crown",
+        "Swept mohawk lock",
+        "Swept mohawk lock.001",
+        "Swept mohawk lock.002",
+        "Swept mohawk lock.003",
+        "Swept mohawk lock.004",
+        "Swept mohawk lock.005",
+        "Temple swept lock",
+        "Temple swept lock.001",
+        "Temple swept lock.002",
+        "Temple swept lock.003",
+        "Temple swept lock.004",
+        "Temple swept lock.005"
+      ]
+    },
+    "03 • Forged armor & leather": {
+      "count": 132,
+      "objects": [
+        "Broad waist belt",
+        "Belt brass piping",
+        "Belt brass piping.001",
+        "Buckle iron seat",
+        "Buckle brass rim",
+        "Buckle inset",
+        "Buckle fang emblem",
+        "Belt rivet",
+        "Belt rivet.001",
+        "Belt rivet.002",
+        "Belt rivet.003",
+        "Belt rivet.004",
+        "Belt rivet.005",
+        "Layered leather tasset 00",
+        "Tasset seam",
+        "Layered leather tasset 01",
+        "Tasset seam.001",
+        "Layered leather tasset 02",
+        "Tasset seam.002",
+        "Layered leather tasset 03",
+        "Tasset seam.003",
+        "Layered leather tasset 04",
+        "Tasset seam.004",
+        "Layered leather tasset 05",
+        "Tasset seam.005",
+        "Layered leather tasset 06",
+        "Tasset seam.006",
+        "Layered leather tasset 07",
+        "Tasset seam.007",
+        "Layered leather tasset 11",
+        "Tasset seam.008",
+        "Crimson split war tabard",
+        "Tabard hem",
+        "Tabard angular clan rune",
+        "Diagonal leather baldric",
+        "Harness stitched edge",
+        "Harness stitched edge.001",
+        "Harness stud",
+        "Harness stud.001",
+        "Harness stud.002",
+        "Harness stud.003",
+        "Harness stud.004",
+        "Harness clasp",
+        "Harness clasp opening",
+        "Rear harness",
+        "Pauldron lower iron skirt",
+        "Pauldron sculpted steel dome",
+        "Pauldron rolled brass border",
+        "Pauldron rolled brass border.001",
+        "Pauldron perimeter rivet",
+        "Pauldron perimeter rivet.001",
+        "Pauldron perimeter rivet.002",
+        "Pauldron perimeter rivet.003",
+        "Pauldron perimeter rivet.004",
+        "Pauldron perimeter rivet.005",
+        "Pauldron perimeter rivet.006",
+        "Pauldron perimeter rivet.007",
+        "Pauldron perimeter rivet.008",
+        "Pauldron perimeter rivet.009",
+        "Pauldron perimeter rivet.010",
+        "Pauldron perimeter rivet.011",
+        "Spike brass socket",
+        "Pauldron ivory spike",
+        "Spike brass socket.001",
+        "Pauldron ivory spike.001",
+        "Spike brass socket.002",
+        "Pauldron ivory spike.002",
+        "Spike brass socket.003",
+        "Pauldron ivory spike.003",
+        "Right upper arm leather band",
+        "Upper armband brass clasp",
+        "Upper armband brass clasp.001",
+        "Broad leather boot",
+        "Forged boot sole",
+        "Overlapping boot toe plate",
+        "Overlapping boot toe plate.001",
+        "Overlapping boot toe plate.002",
+        "Boot upper shaft",
+        "Greave leather retaining strap",
+        "Boot strap buckle",
+        "Greave leather retaining strap.001",
+        "Boot strap buckle.001",
+        "Ridged steel shin guard",
+        "Greave brass border",
+        "Greave center ridge",
+        "Kneecap underwrap",
+        "Steel kneecap",
+        "Knee rivet",
+        "Knee rivet.001",
+        "Bracer leather sleeve",
+        "Bracer iron retaining band",
+        "Bracer iron retaining band.001",
+        "Angular vambrace face",
+        "Bracer brass edge",
+        "Bracer rivet",
+        "Bracer rivet.001",
+        "Bracer rivet.002",
+        "Bracer rivet.003",
+        "Bracer short spike",
+        "Bracer short spike.001",
+        "Broad leather boot.001",
+        "Forged boot sole.001",
+        "Overlapping boot toe plate.003",
+        "Overlapping boot toe plate.004",
+        "Overlapping boot toe plate.005",
+        "Boot upper shaft.001",
+        "Greave leather retaining strap.002",
+        "Boot strap buckle.002",
+        "Greave leather retaining strap.003",
+        "Boot strap buckle.003",
+        "Ridged steel shin guard.001",
+        "Greave brass border.001",
+        "Greave center ridge.001",
+        "Kneecap underwrap.001",
+        "Steel kneecap.001",
+        "Knee rivet.002",
+        "Knee rivet.003",
+        "Bracer leather sleeve.001",
+        "Bracer iron retaining band.002",
+        "Bracer iron retaining band.003",
+        "Angular vambrace face.001",
+        "Bracer brass edge.001",
+        "Bracer rivet.004",
+        "Bracer rivet.005",
+        "Bracer rivet.006",
+        "Bracer rivet.007",
+        "Neck trophy cord",
+        "Necklace bone tooth",
+        "Necklace bone tooth.001",
+        "Necklace bone tooth.002",
+        "Necklace bone tooth.003",
+        "Necklace bone tooth.004"
+      ]
+    },
+    "04 • Axe & shield": {
+      "count": 90,
+      "objects": [
+        "Axe | ashwood haft",
+        "Axe | steel pommel",
+        "Axe | pommel gold lip",
+        "Axe | haft toe",
+        "Axe | handgrip leather",
+        "Axe | grip ferrule",
+        "Axe | grip ferrule.001",
+        "Axe | crimson wrapped grip",
+        "Axe | leather haft binding",
+        "Axe | leather haft binding.001",
+        "Axe | leather haft binding.002",
+        "Axe | leather haft binding.003",
+        "Axe | leather haft binding.004",
+        "Axe | leather haft binding.005",
+        "Axe | wood grain one",
+        "Axe | wood grain two",
+        "Axe | iron head socket",
+        "Axe | head socket bronze ring",
+        "Axe | head socket bronze ring.001",
+        "Axe | head socket bronze ring.002",
+        "Axe | broad forged blade",
+        "Axe | silver cutting bevel front",
+        "Axe | silver cutting bevel rear",
+        "Axe | inset iron cheek",
+        "Axe | bronze cheek rivet",
+        "Axe | bronze cheek rivet.001",
+        "Axe | bronze cheek rivet.002",
+        "Axe | rear pick root",
+        "Axe | rear pick tip",
+        "Axe | copper rune",
+        "Axe | cutting scar 00",
+        "Axe | cutting scar 01",
+        "Axe | cutting scar 02",
+        "Shield | inner iron backing",
+        "Shield | timber plank 01",
+        "Shield | timber grain 00 01",
+        "Shield | timber grain 00 02",
+        "Shield | timber plank 02",
+        "Shield | timber grain 01 00",
+        "Shield | timber grain 01 01",
+        "Shield | timber grain 01 02",
+        "Shield | timber plank 03",
+        "Shield | timber grain 02 00",
+        "Shield | timber grain 02 01",
+        "Shield | timber grain 02 02",
+        "Shield | timber plank 04",
+        "Shield | timber grain 03 00",
+        "Shield | timber grain 03 01",
+        "Shield | timber grain 03 02",
+        "Shield | timber plank 05",
+        "Shield | timber grain 04 00",
+        "Shield | timber grain 04 01",
+        "Shield | timber grain 04 02",
+        "Shield | timber plank 06",
+        "Shield | timber grain 05 00",
+        "Shield | timber grain 05 01",
+        "Shield | broad forged rim",
+        "Shield | burnished outer lip",
+        "Shield | narrow bronze inner lip",
+        "Shield | rim rivet 00",
+        "Shield | rim rivet 01",
+        "Shield | rim rivet 02",
+        "Shield | rim rivet 03",
+        "Shield | rim rivet 04",
+        "Shield | rim rivet 05",
+        "Shield | rim rivet 06",
+        "Shield | rim rivet 07",
+        "Shield | rim rivet 08",
+        "Shield | rim rivet 09",
+        "Shield | rim rivet 10",
+        "Shield | rim rivet 11",
+        "Shield | rim rivet 12",
+        "Shield | rim rivet 13",
+        "Shield | rim rivet 14",
+        "Shield | rim rivet 15",
+        "Shield | worn crimson slash 00",
+        "Shield | worn crimson slash 01",
+        "Shield | boss mounting plate",
+        "Shield | boss bronze collar",
+        "Shield | raised steel boss",
+        "Shield | central spike",
+        "Shield | boss rivet 00",
+        "Shield | boss rivet 01",
+        "Shield | boss rivet 02",
+        "Shield | boss rivet 03",
+        "Shield | boss rivet 04",
+        "Shield | boss rivet 05",
+        "Shield | rear wooden grip",
+        "Shield | grip iron bracket",
+        "Shield | grip iron bracket.001"
+      ]
+    },
+    "05 • Display plinth": {
+      "count": 33,
+      "objects": [
+        "Basalt display plinth",
+        "Plinth lower black iron ring",
+        "Plinth fine brass lip",
+        "Plinth inset circle",
+        "Plinth radial inlay",
+        "Plinth radial inlay.001",
+        "Plinth radial inlay.002",
+        "Plinth radial inlay.003",
+        "Plinth radial inlay.004",
+        "Plinth radial inlay.005",
+        "Plinth radial inlay.006",
+        "Plinth radial inlay.007",
+        "Plinth radial inlay.008",
+        "Plinth radial inlay.009",
+        "Plinth radial inlay.010",
+        "Plinth radial inlay.011",
+        "Plinth radial inlay.012",
+        "Plinth radial inlay.013",
+        "Plinth radial inlay.014",
+        "Plinth radial inlay.015",
+        "Plinth radial inlay.016",
+        "Plinth radial inlay.017",
+        "Plinth radial inlay.018",
+        "Plinth radial inlay.019",
+        "Plinth radial inlay.020",
+        "Plinth radial inlay.021",
+        "Plinth radial inlay.022",
+        "Plinth radial inlay.023",
+        "Basalt hairline seam",
+        "Basalt hairline seam.001",
+        "Basalt hairline seam.002",
+        "Basalt hairline seam.003",
+        "Basalt hairline seam.004"
+      ]
+    },
+    "06 • Studio cameras & lighting": {
+      "count": 9,
+      "objects": [
+        "Studio ground",
+        "CAM • Hero three quarter",
+        "CAM • Front inspection",
+        "CAM • Back inspection",
+        "KEY • warm softbox",
+        "FILL • cool softbox",
+        "RIM • glacial edge",
+        "TOP • warm crown",
+        "FACE • eye softbox"
+      ]
+    }
+  },
+  "mesh_transforms": [
+    {
+      "name": "Amber eye",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.9887710809707642,
+          0.0,
+          0.14943814277648926,
+          -0.25
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5249999761581421
+        ],
+        [
+          -0.14943814277648926,
+          0.0,
+          0.9887710809707642,
+          5.75600004196167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.06300000101327896
+      ],
+      "first_vertex_world": [
+        -0.24058540165424347,
+        -0.5249999761581421,
+        5.818292617797852
+      ]
+    },
+    {
+      "name": "Amber eye.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.9887710809707642,
+          0.0,
+          -0.14943814277648926,
+          0.25
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5249999761581421
+        ],
+        [
+          0.14943814277648926,
+          0.0,
+          0.9887710809707642,
+          5.75600004196167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.06300000101327896
+      ],
+      "first_vertex_world": [
+        0.24058540165424347,
+        -0.5249999761581421,
+        5.818292617797852
+      ]
+    },
+    {
+      "name": "Angular vambrace face",
+      "vertices": 6,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -2.0899999141693115,
+        -0.3440000116825104,
+        3.6600000858306885
+      ],
+      "first_vertex_world": [
+        -2.0899999141693115,
+        -0.3440000116825104,
+        3.6600000858306885
+      ]
+    },
+    {
+      "name": "Angular vambrace face.001",
+      "vertices": 6,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.649999976158142,
+        -0.3440000116825104,
+        3.6600000858306885
+      ],
+      "first_vertex_world": [
+        1.649999976158142,
+        -0.3440000116825104,
+        3.6600000858306885
+      ]
+    },
+    {
+      "name": "Axe | ashwood haft",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.990000009536743
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.07900000363588333,
+        -2.1000001430511475
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.4490000009536743,
+        0.8899998664855957
+      ]
+    },
+    {
+      "name": "Axe | broad forged blade",
+      "vertices": 22,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -2.059999942779541,
+        -0.48500001430511475,
+        4.940000057220459
+      ],
+      "first_vertex_world": [
+        -2.059999942779541,
+        -0.48500001430511475,
+        4.940000057220459
+      ]
+    },
+    {
+      "name": "Axe | bronze cheek rivet",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.03400000184774399,
+          0.0,
+          0.0,
+          -2.240000009536743
+        ],
+        [
+          0.0,
+          0.017999999225139618,
+          0.0,
+          -0.5249999761581421
+        ],
+        [
+          0.0,
+          0.0,
+          0.03400000184774399,
+          4.795000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        -2.240000009536743,
+        -0.5249999761581421,
+        4.828999996185303
+      ]
+    },
+    {
+      "name": "Axe | bronze cheek rivet.001",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.03400000184774399,
+          0.0,
+          0.0,
+          -2.559999942779541
+        ],
+        [
+          0.0,
+          0.017999999225139618,
+          0.0,
+          -0.5249999761581421
+        ],
+        [
+          0.0,
+          0.0,
+          0.03400000184774399,
+          4.869999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        -2.559999942779541,
+        -0.5249999761581421,
+        4.9039998054504395
+      ]
+    },
+    {
+      "name": "Axe | bronze cheek rivet.002",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.03400000184774399,
+          0.0,
+          0.0,
+          -2.7200000286102295
+        ],
+        [
+          0.0,
+          0.017999999225139618,
+          0.0,
+          -0.5249999761581421
+        ],
+        [
+          0.0,
+          0.0,
+          0.03400000184774399,
+          4.769999980926514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        -2.7200000286102295,
+        -0.5249999761581421,
+        4.803999900817871
+      ]
+    },
+    {
+      "name": "Axe | grip ferrule",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.570000171661377
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.11900000274181366,
+        -0.024000048637390137
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.48900002241134644,
+        2.5460000038146973
+      ]
+    },
+    {
+      "name": "Axe | grip ferrule.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.11900000274181366,
+        -0.023999929428100586
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.48900002241134644,
+        3.246000051498413
+      ]
+    },
+    {
+      "name": "Axe | haft toe",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.8450000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.03500000014901161,
+        -0.034999996423721313
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.4050000011920929,
+        0.8100000619888306
+      ]
+    },
+    {
+      "name": "Axe | handgrip leather",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.924999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.10499999672174454,
+        -0.3450000286102295
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.4749999940395355,
+        2.5799999237060547
+      ]
+    },
+    {
+      "name": "Axe | head socket bronze ring",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.360000133514404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.15000000596046448,
+        -0.02500009536743164
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.5199999809265137,
+        4.335000038146973
+      ]
+    },
+    {
+      "name": "Axe | head socket bronze ring.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.989999771118164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.15000000596046448,
+        -0.02499985694885254
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.5199999809265137,
+        4.965000152587891
+      ]
+    },
+    {
+      "name": "Axe | head socket bronze ring.002",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.095000267028809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.15000000596046448,
+        -0.02499985694885254
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.5199999809265137,
+        5.070000648498535
+      ]
+    },
+    {
+      "name": "Axe | inset iron cheek",
+      "vertices": 18,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -2.130000114440918,
+        -0.5090000033378601,
+        4.855000019073486
+      ],
+      "first_vertex_world": [
+        -2.130000114440918,
+        -0.5090000033378601,
+        4.855000019073486
+      ]
+    },
+    {
+      "name": "Axe | iron head socket",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.725000381469727
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.14499999582767487,
+        -0.38499999046325684
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.5149999856948853,
+        4.340000152587891
+      ]
+    },
+    {
+      "name": "Axe | leather haft binding",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1435000896453857
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.023500025272369385
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.46000000834465027,
+        1.1200001239776611
+      ]
+    },
+    {
+      "name": "Axe | leather haft binding.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2135000228881836
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.02349996566772461
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.46000000834465027,
+        1.190000057220459
+      ]
+    },
+    {
+      "name": "Axe | leather haft binding.002",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2834999561309814
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.023500025272369385
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.46000000834465027,
+        1.2599999904632568
+      ]
+    },
+    {
+      "name": "Axe | leather haft binding.003",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.8334999084472656
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.02350008487701416
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.46000000834465027,
+        3.809999942779541
+      ]
+    },
+    {
+      "name": "Axe | leather haft binding.004",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.9235000610351562
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.02349996566772461
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.46000000834465027,
+        3.9000000953674316
+      ]
+    },
+    {
+      "name": "Axe | leather haft binding.005",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.013500213623047
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.02350008487701416
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.46000000834465027,
+        3.9900002479553223
+      ]
+    },
+    {
+      "name": "Axe | pommel gold lip",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9049999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.12200000137090683,
+        -0.015000015497207642
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.492000013589859,
+        0.8899999856948853
+      ]
+    },
+    {
+      "name": "Axe | rear pick root",
+      "vertices": 16,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.6292068494294654e-07,
+          -0.14142216742038727,
+          0.9899494051933289,
+          -1.8250000476837158
+        ],
+        [
+          1.0,
+          -8.608059687276182e-08,
+          1.5227745109314128e-07,
+          -0.3700000047683716
+        ],
+        [
+          6.36800265851889e-08,
+          0.9899494051933289,
+          0.14142216742038727,
+          4.824999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.11500000208616257,
+        -0.10606598854064941
+      ],
+      "first_vertex_world": [
+        -1.9462635517120361,
+        -0.37000003457069397,
+        4.923843860626221
+      ]
+    },
+    {
+      "name": "Axe | rear pick tip",
+      "vertices": 16,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -0.33633485436439514,
+          0.941742479801178,
+          -1.6600000858306885
+        ],
+        [
+          1.0,
+          2.539257515365989e-08,
+          -7.109957778084208e-08,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.941742479801178,
+          0.33633485436439514,
+          4.864999771118164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0820000022649765,
+        -0.07433029264211655
+      ],
+      "first_vertex_world": [
+        -1.7575795650482178,
+        -0.3700000047683716,
+        4.91722297668457
+      ]
+    },
+    {
+      "name": "Axe | silver cutting bevel front",
+      "vertices": 10,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -2.940000057220459,
+        -0.4000000059604645,
+        5.300000190734863
+      ],
+      "first_vertex_world": [
+        -2.940000057220459,
+        -0.4000000059604645,
+        5.300000190734863
+      ]
+    },
+    {
+      "name": "Axe | silver cutting bevel rear",
+      "vertices": 10,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -2.940000057220459,
+        -0.3400000035762787,
+        5.300000190734863
+      ],
+      "first_vertex_world": [
+        -2.940000057220459,
+        -0.3400000035762787,
+        5.300000190734863
+      ]
+    },
+    {
+      "name": "Axe | steel pommel",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.9800000190734863
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.3700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9299999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.11599999666213989,
+        -0.09999999403953552
+      ],
+      "first_vertex_world": [
+        -1.9800000190734863,
+        -0.4860000014305115,
+        0.8299999237060547
+      ]
+    },
+    {
+      "name": "Basalt display plinth",
+      "vertices": 192,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.12999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        2.6700000762939453,
+        -0.10000000149011612
+      ],
+      "first_vertex_world": [
+        2.3341881671967712e-07,
+        -2.6700000762939453,
+        0.0299999937415123
+      ]
+    },
+    {
+      "name": "Belt rivet",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.2800000011920929
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.45500001311302185
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03500000014901161
+      ],
+      "first_vertex_world": [
+        -0.2800000011920929,
+        -0.45500001311302185,
+        2.9810001850128174
+      ]
+    },
+    {
+      "name": "Belt rivet.001",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.41999998688697815
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4300000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03500000014901161
+      ],
+      "first_vertex_world": [
+        -0.41999998688697815,
+        -0.4300000071525574,
+        2.9810001850128174
+      ]
+    },
+    {
+      "name": "Belt rivet.002",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.5600000023841858
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4050000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03500000014901161
+      ],
+      "first_vertex_world": [
+        -0.5600000023841858,
+        -0.4050000011920929,
+        2.9810001850128174
+      ]
+    },
+    {
+      "name": "Belt rivet.003",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.2800000011920929
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.45500001311302185
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03500000014901161
+      ],
+      "first_vertex_world": [
+        0.2800000011920929,
+        -0.45500001311302185,
+        2.9810001850128174
+      ]
+    },
+    {
+      "name": "Belt rivet.004",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.41999998688697815
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4300000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03500000014901161
+      ],
+      "first_vertex_world": [
+        0.41999998688697815,
+        -0.4300000071525574,
+        2.9810001850128174
+      ]
+    },
+    {
+      "name": "Belt rivet.005",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.5600000023841858
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4050000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03500000014901161
+      ],
+      "first_vertex_world": [
+        0.5600000023841858,
+        -0.4050000011920929,
+        2.9810001850128174
+      ]
+    },
+    {
+      "name": "Boot strap buckle",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.034999966621399
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.05000000074505806,
+        -0.05999999865889549,
+        -0.05999999865889549
+      ],
+      "first_vertex_world": [
+        -1.084999918937683,
+        -0.1599999964237213,
+        0.7199999690055847
+      ]
+    },
+    {
+      "name": "Boot strap buckle.001",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.034999966621399
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1699999570846558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.05000000074505806,
+        -0.05999999865889549,
+        -0.05999999865889549
+      ],
+      "first_vertex_world": [
+        -1.084999918937683,
+        -0.1599999964237213,
+        1.1100000143051147
+      ]
+    },
+    {
+      "name": "Boot strap buckle.002",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.034999966621399
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.05000000074505806,
+        -0.05999999865889549,
+        -0.05999999865889549
+      ],
+      "first_vertex_world": [
+        0.98499995470047,
+        -0.1599999964237213,
+        0.7199999690055847
+      ]
+    },
+    {
+      "name": "Boot strap buckle.003",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.034999966621399
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1699999570846558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.05000000074505806,
+        -0.05999999865889549,
+        -0.05999999865889549
+      ],
+      "first_vertex_world": [
+        0.98499995470047,
+        -0.1599999964237213,
+        1.1100000143051147
+      ]
+    },
+    {
+      "name": "Boot upper shaft",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -0.44721391797065735,
+          -0.8927533030509949,
+          0.05469151958823204,
+          -0.7400000095367432
+        ],
+        [
+          0.8944269418716431,
+          -0.44637706875801086,
+          0.027346305549144745,
+          0.019999999552965164
+        ],
+        [
+          -4.620645768227405e-07,
+          0.06114722043275833,
+          0.9981287717819214,
+          0.9950000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.40568429231643677
+      ],
+      "first_vertex_world": [
+        -0.7178125381469727,
+        0.031093966215848923,
+        1.3999252319335938
+      ]
+    },
+    {
+      "name": "Boot upper shaft.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -0.44721391797065735,
+          0.8927533030509949,
+          -0.05469151958823204,
+          0.7400000095367432
+        ],
+        [
+          -0.8944269418716431,
+          -0.44637706875801086,
+          0.027346305549144745,
+          0.019999999552965164
+        ],
+        [
+          4.620645768227405e-07,
+          0.06114722043275833,
+          0.9981287717819214,
+          0.9950000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.40568429231643677
+      ],
+      "first_vertex_world": [
+        0.7178125381469727,
+        0.031093966215848923,
+        1.3999252319335938
+      ]
+    },
+    {
+      "name": "Bracer iron retaining band",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6459429860115051,
+          -0.7074463367462158,
+          -0.2868404686450958,
+          -1.8007999658584595
+        ],
+        [
+          -0.7633857727050781,
+          -0.598609983921051,
+          -0.24271170794963837,
+          -0.07760000228881836
+        ],
+        [
+          7.655765799086112e-09,
+          0.37574782967567444,
+          -0.9267224073410034,
+          3.552799940109253
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.32440000772476196,
+        -0.02719276025891304
+      ],
+      "first_vertex_world": [
+        -2.0224955081939697,
+        -0.2651890814304352,
+        3.69989275932312
+      ]
+    },
+    {
+      "name": "Bracer iron retaining band.001",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6459434628486633,
+          -0.7074454426765442,
+          -0.28684160113334656,
+          -1.8995999097824097
+        ],
+        [
+          -0.7633852958679199,
+          -0.5986098647117615,
+          -0.24271298944950104,
+          -0.16120000183582306
+        ],
+        [
+          2.4050281766108128e-08,
+          0.37574952840805054,
+          -0.9267215728759766,
+          3.23360013961792
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.2970399856567383,
+        -0.027192652225494385
+      ],
+      "first_vertex_world": [
+        -2.1019394397735596,
+        -0.3324110507965088,
+        3.370412826538086
+      ]
+    },
+    {
+      "name": "Bracer iron retaining band.002",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6459429860115051,
+          0.7074463367462158,
+          0.2868404686450958,
+          1.8007999658584595
+        ],
+        [
+          0.7633857727050781,
+          -0.598609983921051,
+          -0.24271170794963837,
+          -0.07760000228881836
+        ],
+        [
+          -7.655765799086112e-09,
+          0.37574782967567444,
+          -0.9267224073410034,
+          3.552799940109253
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.32440000772476196,
+        -0.02719276025891304
+      ],
+      "first_vertex_world": [
+        2.0224955081939697,
+        -0.2651890814304352,
+        3.69989275932312
+      ]
+    },
+    {
+      "name": "Bracer iron retaining band.003",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6459434628486633,
+          0.7074454426765442,
+          0.28684160113334656,
+          1.8995999097824097
+        ],
+        [
+          0.7633852958679199,
+          -0.5986098647117615,
+          -0.24271298944950104,
+          -0.16120000183582306
+        ],
+        [
+          -2.4050281766108128e-08,
+          0.37574952840805054,
+          -0.9267215728759766,
+          3.23360013961792
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.2970399856567383,
+        -0.027192652225494385
+      ],
+      "first_vertex_world": [
+        2.1019394397735596,
+        -0.3324110507965088,
+        3.370412826538086
+      ]
+    },
+    {
+      "name": "Bracer leather sleeve",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6459422707557678,
+          -0.7074461579322815,
+          -0.28684234619140625,
+          -1.8450000286102295
+        ],
+        [
+          -0.7633863091468811,
+          -0.5986084342002869,
+          -0.24271278083324432,
+          -0.11500000208616257
+        ],
+        [
+          1.269562233119359e-09,
+          0.37574994564056396,
+          -0.9267212152481079,
+          3.4099998474121094
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.31700000166893005,
+        -0.22660531103610992
+      ],
+      "first_vertex_world": [
+        -2.004260540008545,
+        -0.24975888431072235,
+        3.739112615585327
+      ]
+    },
+    {
+      "name": "Bracer leather sleeve.001",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6459422707557678,
+          0.7074461579322815,
+          0.28684234619140625,
+          1.8450000286102295
+        ],
+        [
+          0.7633863091468811,
+          -0.5986084342002869,
+          -0.24271278083324432,
+          -0.11500000208616257
+        ],
+        [
+          -1.269562233119359e-09,
+          0.37574994564056396,
+          -0.9267212152481079,
+          3.4099998474121094
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.31700000166893005,
+        -0.22660531103610992
+      ],
+      "first_vertex_world": [
+        2.004260540008545,
+        -0.24975888431072235,
+        3.739112615585327
+      ]
+    },
+    {
+      "name": "Bracer rivet",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.009999990463257
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.2899999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        -2.009999990463257,
+        -0.43700000643730164,
+        3.322999954223633
+      ]
+    },
+    {
+      "name": "Bracer rivet.001",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.009999990463257
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.569999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        -2.009999990463257,
+        -0.43700000643730164,
+        3.6029999256134033
+      ]
+    },
+    {
+      "name": "Bracer rivet.002",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.2899999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        -1.7300000190734863,
+        -0.43700000643730164,
+        3.322999954223633
+      ]
+    },
+    {
+      "name": "Bracer rivet.003",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.569999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        -1.7300000190734863,
+        -0.43700000643730164,
+        3.6029999256134033
+      ]
+    },
+    {
+      "name": "Bracer rivet.004",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.2899999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        1.7300000190734863,
+        -0.43700000643730164,
+        3.322999954223633
+      ]
+    },
+    {
+      "name": "Bracer rivet.005",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.569999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        1.7300000190734863,
+        -0.43700000643730164,
+        3.6029999256134033
+      ]
+    },
+    {
+      "name": "Bracer rivet.006",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.009999990463257
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.2899999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        2.009999990463257,
+        -0.43700000643730164,
+        3.322999954223633
+      ]
+    },
+    {
+      "name": "Bracer rivet.007",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.009999990463257
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.43700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.569999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.032999999821186066
+      ],
+      "first_vertex_world": [
+        2.009999990463257,
+        -0.43700000643730164,
+        3.6029999256134033
+      ]
+    },
+    {
+      "name": "Bracer short spike",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.769894169001418e-07,
+          0.29000765085220337,
+          -0.9570242166519165,
+          -2.2350001335144043
+        ],
+        [
+          -0.9999998807907104,
+          7.654244171817481e-08,
+          -6.769806049078397e-08,
+          -0.12999999523162842
+        ],
+        [
+          -6.769806049078397e-08,
+          0.9570242166519165,
+          0.2900077700614929,
+          3.380000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.17240948975086212
+      ],
+      "first_vertex_world": [
+        -2.0438992977142334,
+        -0.12999998033046722,
+        3.4161322116851807
+      ]
+    },
+    {
+      "name": "Bracer short spike.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.769894169001418e-07,
+          0.29000765085220337,
+          -0.9570242166519165,
+          -2.2350001335144043
+        ],
+        [
+          -0.9999998807907104,
+          7.654244171817481e-08,
+          -6.769806049078397e-08,
+          -0.12999999523162842
+        ],
+        [
+          -6.769806049078397e-08,
+          0.9570242166519165,
+          0.2900077700614929,
+          3.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.09000000357627869,
+        -0.17240948975086212
+      ],
+      "first_vertex_world": [
+        -2.0438992977142334,
+        -0.12999998033046722,
+        3.6561319828033447
+      ]
+    },
+    {
+      "name": "Broad leather boot",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.1599999964237213
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.36000001430511475,
+        -0.5400000214576721,
+        -0.23999999463558197
+      ],
+      "first_vertex_world": [
+        -1.1349999904632568,
+        -0.7000000476837158,
+        0.26499998569488525
+      ]
+    },
+    {
+      "name": "Broad leather boot.001",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.1599999964237213
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.36000001430511475,
+        -0.5400000214576721,
+        -0.23999999463558197
+      ],
+      "first_vertex_world": [
+        0.41499996185302734,
+        -0.7000000476837158,
+        0.26499998569488525
+      ]
+    },
+    {
+      "name": "Broad waist belt",
+      "vertices": 80,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.7099999785423279,
+        0.02500000037252903,
+        2.799999952316284
+      ],
+      "first_vertex_world": [
+        0.7099999785423279,
+        0.02500000037252903,
+        2.799999952316284
+      ]
+    },
+    {
+      "name": "Buckle brass rim",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5600000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.19499999284744263,
+        -0.03700000047683716,
+        -0.14000000059604645
+      ],
+      "first_vertex_world": [
+        -0.19499999284744263,
+        -0.597000002861023,
+        2.805999994277954
+      ]
+    },
+    {
+      "name": "Buckle fang emblem",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.0949999988079071,
+        -0.6269999742507935,
+        3.015000104904175
+      ],
+      "first_vertex_world": [
+        -0.0949999988079071,
+        -0.6269999742507935,
+        3.015000104904175
+      ]
+    },
+    {
+      "name": "Buckle inset",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6039999723434448
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.13750000298023224,
+        -0.014000000432133675,
+        -0.09000000357627869
+      ],
+      "first_vertex_world": [
+        -0.13750000298023224,
+        -0.6179999709129333,
+        2.8560001850128174
+      ]
+    },
+    {
+      "name": "Buckle iron seat",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.946000099182129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.23999999463558197,
+        -0.05999999865889549,
+        -0.1550000011920929
+      ],
+      "first_vertex_world": [
+        -0.23999999463558197,
+        -0.5419999957084656,
+        2.7910001277923584
+      ]
+    },
+    {
+      "name": "Catchlight",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.22200000286102295
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5849999785423279
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.775000095367432
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.012000000104308128
+      ],
+      "first_vertex_world": [
+        -0.22200000286102295,
+        -0.5849999785423279,
+        5.7870001792907715
+      ]
+    },
+    {
+      "name": "Catchlight.001",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.22200000286102295
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5849999785423279
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.775000095367432
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.012000000104308128
+      ],
+      "first_vertex_world": [
+        0.22200000286102295,
+        -0.5849999785423279,
+        5.7870001792907715
+      ]
+    },
+    {
+      "name": "Crimson split war tabard",
+      "vertices": 10,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.4300000071525574,
+        -0.49399998784065247,
+        2.809999942779541
+      ],
+      "first_vertex_world": [
+        -0.4300000071525574,
+        -0.49399998784065247,
+        2.809999942779541
+      ]
+    },
+    {
+      "name": "Curved ivory tusk",
+      "vertices": 80,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.23525509238243103,
+        -0.697553277015686,
+        5.150000095367432
+      ],
+      "first_vertex_world": [
+        -0.23525509238243103,
+        -0.697553277015686,
+        5.150000095367432
+      ]
+    },
+    {
+      "name": "Curved ivory tusk.001",
+      "vertices": 80,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.41474488377571106,
+        -0.5924466848373413,
+        5.150000095367432
+      ],
+      "first_vertex_world": [
+        0.41474488377571106,
+        -0.5924466848373413,
+        5.150000095367432
+      ]
+    },
+    {
+      "name": "Deep eye socket",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.9838436841964722,
+          0.0,
+          0.17902958393096924,
+          -0.24699999392032623
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4740000069141388
+        ],
+        [
+          -0.17902958393096924,
+          0.0,
+          0.9838436841964722,
+          5.747000217437744
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.1080000028014183
+      ],
+      "first_vertex_world": [
+        -0.2276647984981537,
+        -0.4740000069141388,
+        5.853255271911621
+      ]
+    },
+    {
+      "name": "Deep eye socket.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.9838436841964722,
+          0.0,
+          -0.17902958393096924,
+          0.24699999392032623
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4740000069141388
+        ],
+        [
+          0.17902958393096924,
+          0.0,
+          0.9838436841964722,
+          5.747000217437744
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.1080000028014183
+      ],
+      "first_vertex_world": [
+        0.2276647984981537,
+        -0.4740000069141388,
+        5.853255271911621
+      ]
+    },
+    {
+      "name": "Diagonal leather baldric",
+      "vertices": 14,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -1.1200000047683716,
+        -0.2669999897480011,
+        4.614999771118164
+      ],
+      "first_vertex_world": [
+        -1.1200000047683716,
+        -0.2669999897480011,
+        4.614999771118164
+      ]
+    },
+    {
+      "name": "Forged boot sole",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.17000000178813934
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.3100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.375,
+        -0.5550000071525574,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        -1.149999976158142,
+        -0.7250000238418579,
+        0.24500000476837158
+      ]
+    },
+    {
+      "name": "Forged boot sole.001",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.17000000178813934
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.3100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.375,
+        -0.5550000071525574,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        0.3999999761581421,
+        -0.7250000238418579,
+        0.24500000476837158
+      ]
+    },
+    {
+      "name": "Hair crown",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.05999999865889549
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.183000087738037
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.18000000715255737
+      ],
+      "first_vertex_world": [
+        0.0,
+        0.05999999865889549,
+        6.36299991607666
+      ]
+    },
+    {
+      "name": "Harness clasp",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6967067122459412,
+          0.0,
+          -0.7173560857772827,
+          -0.30000001192092896
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6230000257492065
+        ],
+        [
+          0.7173560857772827,
+          0.0,
+          0.6967067122459412,
+          4.014999866485596
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1550000011920929,
+        -0.04749999940395355,
+        -0.125
+      ],
+      "first_vertex_world": [
+        -0.31832003593444824,
+        -0.6705000400543213,
+        3.8167214393615723
+      ]
+    },
+    {
+      "name": "Harness clasp opening",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.6967067122459412,
+          0.0,
+          -0.7173560857772827,
+          -0.30000001192092896
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6800000071525574
+        ],
+        [
+          0.7173560857772827,
+          0.0,
+          0.6967067122459412,
+          4.014999866485596
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.0949999988079071,
+        -0.010499999858438969,
+        -0.07000000029802322
+      ],
+      "first_vertex_world": [
+        -0.3159722089767456,
+        -0.690500020980835,
+        3.8980815410614014
+      ]
+    },
+    {
+      "name": "Harness stud",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.8399999737739563
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5289999842643738
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.489999771118164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03200000151991844
+      ],
+      "first_vertex_world": [
+        -0.8399999737739563,
+        -0.5289999842643738,
+        4.521999835968018
+      ]
+    },
+    {
+      "name": "Harness stud.001",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.5699999928474426
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6800000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.239999771118164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03200000151991844
+      ],
+      "first_vertex_world": [
+        -0.5699999928474426,
+        -0.6800000071525574,
+        4.271999835968018
+      ]
+    },
+    {
+      "name": "Harness stud.002",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.23999999463558197
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6060000061988831
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.9600000381469727
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03200000151991844
+      ],
+      "first_vertex_world": [
+        -0.23999999463558197,
+        -0.6060000061988831,
+        3.992000102996826
+      ]
+    },
+    {
+      "name": "Harness stud.003",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.07999999821186066
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5690000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.6700000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03200000151991844
+      ],
+      "first_vertex_world": [
+        0.07999999821186066,
+        -0.5690000057220459,
+        3.702000141143799
+      ]
+    },
+    {
+      "name": "Harness stud.004",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.4000000059604645
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5170000195503235
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.309999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03200000151991844
+      ],
+      "first_vertex_world": [
+        0.4000000059604645,
+        -0.5170000195503235,
+        3.3420000076293945
+      ]
+    },
+    {
+      "name": "Inset ear cartilage",
+      "vertices": 5,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.6200000047683716,
+        -0.10300000011920929,
+        5.829999923706055
+      ],
+      "first_vertex_world": [
+        -0.6200000047683716,
+        -0.10300000011920929,
+        5.829999923706055
+      ]
+    },
+    {
+      "name": "Inset ear cartilage.001",
+      "vertices": 5,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.6200000047683716,
+        -0.10300000011920929,
+        5.829999923706055
+      ],
+      "first_vertex_world": [
+        0.6200000047683716,
+        -0.10300000011920929,
+        5.829999923706055
+      ]
+    },
+    {
+      "name": "Knee rivet",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.8460000157356262
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.39500001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6799999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.02800000086426735
+      ],
+      "first_vertex_world": [
+        -0.8460000157356262,
+        -0.39500001072883606,
+        1.7079999446868896
+      ]
+    },
+    {
+      "name": "Knee rivet.001",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.515999972820282
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.39500001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6799999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.02800000086426735
+      ],
+      "first_vertex_world": [
+        -0.515999972820282,
+        -0.39500001072883606,
+        1.7079999446868896
+      ]
+    },
+    {
+      "name": "Knee rivet.002",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.515999972820282
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.39500001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6799999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.02800000086426735
+      ],
+      "first_vertex_world": [
+        0.515999972820282,
+        -0.39500001072883606,
+        1.7079999446868896
+      ]
+    },
+    {
+      "name": "Knee rivet.003",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.8460000157356262
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.39500001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6799999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.02800000086426735
+      ],
+      "first_vertex_world": [
+        0.8460000157356262,
+        -0.39500001072883606,
+        1.7079999446868896
+      ]
+    },
+    {
+      "name": "Kneecap underwrap",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6809999942779541
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.09000000357627869
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6549999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.26499998569488525
+      ],
+      "first_vertex_world": [
+        -0.6809999942779541,
+        -0.09000000357627869,
+        1.9199999570846558
+      ]
+    },
+    {
+      "name": "Kneecap underwrap.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6809999942779541
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.09000000357627869
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6549999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.26499998569488525
+      ],
+      "first_vertex_world": [
+        0.6809999942779541,
+        -0.09000000357627869,
+        1.9199999570846558
+      ]
+    },
+    {
+      "name": "Layered leather tasset 00",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.7164736390113831,
+        -0.0836528018116951,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        0.7164736390113831,
+        -0.0836528018116951,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 01",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.7024759650230408,
+        0.16826628148555756,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        0.7024759650230408,
+        0.16826628148555756,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 02",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.5002504587173462,
+        0.38179728388786316,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        0.5002504587173462,
+        0.38179728388786316,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 03",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.16398318111896515,
+        0.49972471594810486,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        0.16398318111896515,
+        0.49972471594810486,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 04",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.21622323989868164,
+        0.49045008420944214,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        -0.21622323989868164,
+        0.49045008420944214,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 05",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.5384927988052368,
+        0.356458455324173,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        -0.5384927988052368,
+        0.356458455324173,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 06",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.7164736390113831,
+        0.13365279138088226,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        -0.7164736390113831,
+        0.13365279138088226,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 07",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.7024759650230408,
+        -0.1182662844657898,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        -0.7024759650230408,
+        -0.1182662844657898,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Layered leather tasset 11",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.5384927988052368,
+        -0.306458443403244,
+        2.8299999237060547
+      ],
+      "first_vertex_world": [
+        0.5384927988052368,
+        -0.306458443403244,
+        2.8299999237060547
+      ]
+    },
+    {
+      "name": "Necklace bone tooth",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.8555000424385071,
+          0.5009840130805969,
+          0.1308995932340622,
+          -0.21850000321865082
+        ],
+        [
+          0.5178027749061584,
+          -0.8277125358581543,
+          -0.2162685990333557,
+          -0.35600000619888306
+        ],
+        [
+          1.1264479127248705e-07,
+          0.2527979612350464,
+          -0.9675189852714539,
+          4.762499809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04600000008940697,
+        -0.08785360306501389
+      ],
+      "first_vertex_world": [
+        -0.2069547474384308,
+        -0.3750748038291931,
+        4.859128475189209
+      ]
+    },
+    {
+      "name": "Necklace bone tooth.001",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.9535826444625854,
+          0.29318419098854065,
+          0.06872527301311493,
+          -0.11400000005960464
+        ],
+        [
+          0.3011314272880554,
+          -0.9284167885780334,
+          -0.21762977540493011,
+          -0.35600000619888306
+        ],
+        [
+          8.145609342591342e-08,
+          0.22822332382202148,
+          -0.9736090898513794,
+          4.735000133514404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04600000008940697,
+        -0.08730410039424896
+      ],
+      "first_vertex_world": [
+        -0.10651352256536484,
+        -0.3797072172164917,
+        4.830498695373535
+      ]
+    },
+    {
+      "name": "Necklace bone tooth.002",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9759161472320557,
+          -0.21814580261707306,
+          -0.35600000619888306
+        ],
+        [
+          0.0,
+          0.21814580261707306,
+          -0.9759161472320557,
+          4.704999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04600000008940697,
+        -0.08709768205881119
+      ],
+      "first_vertex_world": [
+        0.0,
+        -0.3818921446800232,
+        4.800034523010254
+      ]
+    },
+    {
+      "name": "Necklace bone tooth.003",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.9535826444625854,
+          -0.29318419098854065,
+          -0.06872527301311493,
+          0.11400000005960464
+        ],
+        [
+          -0.3011314272880554,
+          -0.9284167885780334,
+          -0.21762977540493011,
+          -0.35600000619888306
+        ],
+        [
+          -8.145609342591342e-08,
+          0.22822332382202148,
+          -0.9736090898513794,
+          4.735000133514404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04600000008940697,
+        -0.08730410039424896
+      ],
+      "first_vertex_world": [
+        0.10651352256536484,
+        -0.3797072172164917,
+        4.830498695373535
+      ]
+    },
+    {
+      "name": "Necklace bone tooth.004",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.8555000424385071,
+          -0.5009840130805969,
+          -0.1308995932340622,
+          0.21850000321865082
+        ],
+        [
+          -0.5178027749061584,
+          -0.8277125358581543,
+          -0.2162685990333557,
+          -0.35600000619888306
+        ],
+        [
+          -1.1264479127248705e-07,
+          0.2527979612350464,
+          -0.9675189852714539,
+          4.762499809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04600000008940697,
+        -0.08785360306501389
+      ],
+      "first_vertex_world": [
+        0.2069547474384308,
+        -0.3750748038291931,
+        4.859128475189209
+      ]
+    },
+    {
+      "name": "Nostril",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.12399999797344208
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7089999914169312
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.485000133514404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03099999949336052
+      ],
+      "first_vertex_world": [
+        -0.12399999797344208,
+        -0.7089999914169312,
+        5.516000270843506
+      ]
+    },
+    {
+      "name": "Nostril.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.12399999797344208
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7089999914169312
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.485000133514404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.03099999949336052
+      ],
+      "first_vertex_world": [
+        0.12399999797344208,
+        -0.7089999914169312,
+        5.516000270843506
+      ]
+    },
+    {
+      "name": "ORC • sculpted head & pointed ears",
+      "vertices": 13361,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.012000000104308128
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.670000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.9855719804763794,
+        0.0008617290877737105,
+        0.0006462088786065578
+      ],
+      "first_vertex_world": [
+        -0.9855719804763794,
+        0.012861729599535465,
+        5.6706461906433105
+      ]
+    },
+    {
+      "name": "ORC • unified muscular body",
+      "vertices": 22630,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -2.0470640659332275,
+        -0.5091920495033264,
+        2.7476768493652344
+      ],
+      "first_vertex_world": [
+        -2.0470640659332275,
+        -0.5091920495033264,
+        2.7476768493652344
+      ]
+    },
+    {
+      "name": "Overlapping boot toe plate",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7269999980926514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.32499998807907104,
+        -0.1274999976158142,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        -1.0999999046325684,
+        -0.6274999976158142,
+        0.6620000004768372
+      ]
+    },
+    {
+      "name": "Overlapping boot toe plate.001",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.35499998927116394
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7509999871253967
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.32499998807907104,
+        -0.1274999976158142,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        -1.0999999046325684,
+        -0.48249998688697815,
+        0.6859999895095825
+      ]
+    },
+    {
+      "name": "Overlapping boot toe plate.002",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.20999999344348907
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.32499998807907104,
+        -0.1274999976158142,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        -1.0999999046325684,
+        -0.3374999761581421,
+        0.7099999785423279
+      ]
+    },
+    {
+      "name": "Overlapping boot toe plate.003",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7269999980926514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.32499998807907104,
+        -0.1274999976158142,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        0.44999998807907104,
+        -0.6274999976158142,
+        0.6620000004768372
+      ]
+    },
+    {
+      "name": "Overlapping boot toe plate.004",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.35499998927116394
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7509999871253967
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.32499998807907104,
+        -0.1274999976158142,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        0.44999998807907104,
+        -0.48249998688697815,
+        0.6859999895095825
+      ]
+    },
+    {
+      "name": "Overlapping boot toe plate.005",
+      "vertices": 8,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.20999999344348907
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7749999761581421
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.32499998807907104,
+        -0.1274999976158142,
+        -0.06499999761581421
+      ],
+      "first_vertex_world": [
+        0.44999998807907104,
+        -0.3374999761581421,
+        0.7099999785423279
+      ]
+    },
+    {
+      "name": "Pauldron ivory spike",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.12403472512960434,
+          -0.9901041388511658,
+          0.06564530730247498,
+          1.1224000453948975
+        ],
+        [
+          0.9922779202461243,
+          0.12376298755407333,
+          -0.008205863647162914,
+          0.012199999764561653
+        ],
+        [
+          1.956806698899527e-07,
+          0.06615620106458664,
+          0.9978092908859253,
+          5.332479953765869
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.15000000596046448,
+        -0.2681072950363159
+      ],
+      "first_vertex_world": [
+        0.9562844038009644,
+        0.03296450152993202,
+        5.074883460998535
+      ]
+    },
+    {
+      "name": "Pauldron ivory spike.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -0.04756512492895126,
+          -0.6973410844802856,
+          0.7151594758033752,
+          1.7552000284194946
+        ],
+        [
+          0.9988681674003601,
+          -0.0332067534327507,
+          0.03405512124300003,
+          0.041200000792741776
+        ],
+        [
+          5.525109258996963e-08,
+          0.7159698605537415,
+          0.6981312036514282,
+          5.109600067138672
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.13500000536441803,
+        -0.2584039568901062
+      ],
+      "first_vertex_world": [
+        1.4762589931488037,
+        0.027917109429836273,
+        5.025856018066406
+      ]
+    },
+    {
+      "name": "Pauldron ivory spike.002",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.8035573363304138,
+          -0.4769410192966461,
+          0.35612204670906067,
+          1.4320000410079956
+        ],
+        [
+          0.5952274203300476,
+          0.6438705325126648,
+          -0.48076513409614563,
+          -0.5311999917030334
+        ],
+        [
+          1.0009313911041318e-07,
+          0.5982959270477295,
+          0.8012752532958984,
+          5.0920000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.11500000208616257,
+        -0.24710607528686523
+      ],
+      "first_vertex_world": [
+        1.289151906967163,
+        -0.3383548855781555,
+        4.962803840637207
+      ]
+    },
+    {
+      "name": "Pauldron ivory spike.003",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -0.8741573691368103,
+          -0.39748525619506836,
+          0.2790246903896332,
+          1.374000072479248
+        ],
+        [
+          0.485643208026886,
+          -0.7154731750488281,
+          0.502244234085083,
+          0.5512000322341919
+        ],
+        [
+          -2.8457989742491918e-08,
+          0.5745468139648438,
+          0.8184717297554016,
+          5.086400032043457
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.11500000208616257,
+        -0.2365383356809616
+      ],
+      "first_vertex_world": [
+        1.26228928565979,
+        0.3501206040382385,
+        4.9588727951049805
+      ]
+    },
+    {
+      "name": "Pauldron lower iron skirt",
+      "vertices": 61,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.1200000047683716,
+        0.02500000037252903,
+        4.960000038146973
+      ],
+      "first_vertex_world": [
+        1.1200000047683716,
+        0.02500000037252903,
+        4.960000038146973
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.7369999885559082
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.00800000037997961
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.7369999885559082,
+        0.00800000037997961,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.001",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.6516581773757935
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.28700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.6516581773757935,
+        0.28700000047683716,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.002",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.4184999465942383
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4912421703338623
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.4184999465942383,
+        0.4912421703338623,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.003",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.100000023841858
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5659999847412109
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.100000023841858,
+        0.5659999847412109,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.004",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.781499981880188
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4912421703338623
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        0.781499981880188,
+        0.4912421703338623,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.005",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.5483418107032776
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.28700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        0.5483418107032776,
+        0.28700000047683716,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.006",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.46299999952316284
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.00800000037997961
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        0.46299999952316284,
+        0.00800000037997961,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.007",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.5483418107032776
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2709999978542328
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        0.5483418107032776,
+        -0.2709999978542328,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.008",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.781499981880188
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.47524216771125793
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        0.781499981880188,
+        -0.47524216771125793,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.009",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.100000023841858
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.100000023841858,
+        -0.550000011920929,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.010",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.4184999465942383
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.47524216771125793
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.4184999465942383,
+        -0.47524216771125793,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron perimeter rivet.011",
+      "vertices": 114,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.6516581773757935
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.2709999978542328
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04500000178813934
+      ],
+      "first_vertex_world": [
+        1.6516581773757935,
+        -0.2709999978542328,
+        4.664999961853027
+      ]
+    },
+    {
+      "name": "Pauldron sculpted steel dome",
+      "vertices": 61,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.100000023841858,
+        0.00800000037997961,
+        5.019999980926514
+      ],
+      "first_vertex_world": [
+        1.100000023841858,
+        0.00800000037997961,
+        5.019999980926514
+      ]
+    },
+    {
+      "name": "Plinth fine brass lip",
+      "vertices": 192,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          8.742278367890322e-08,
+          0.0,
+          0.0
+        ],
+        [
+          -8.742278367890322e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.06599999964237213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        2.734999895095825,
+        -0.010999999940395355
+      ],
+      "first_vertex_world": [
+        2.3910129698379023e-07,
+        -2.734999895095825,
+        0.054999999701976776
+      ]
+    },
+    {
+      "name": "Plinth lower black iron ring",
+      "vertices": 192,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.014999999664723873
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        2.7200000286102295,
+        -0.03999999910593033
+      ],
+      "first_vertex_world": [
+        2.3778994773238082e-07,
+        -2.7200000286102295,
+        -0.02499999850988388
+      ]
+    },
+    {
+      "name": "Ridged steel shin guard",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.9700000286102295,
+        -0.23600000143051147,
+        1.4299999475479126
+      ],
+      "first_vertex_world": [
+        -0.9700000286102295,
+        -0.23600000143051147,
+        1.4299999475479126
+      ]
+    },
+    {
+      "name": "Ridged steel shin guard.001",
+      "vertices": 7,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.49000000953674316,
+        -0.23600000143051147,
+        1.4299999475479126
+      ],
+      "first_vertex_world": [
+        0.49000000953674316,
+        -0.23600000143051147,
+        1.4299999475479126
+      ]
+    },
+    {
+      "name": "Right upper arm leather band",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.0995037853717804,
+          -0.8382671475410461,
+          -0.5361037254333496,
+          -1.3599998950958252
+        ],
+        [
+          -0.9950371384620667,
+          -0.08382675051689148,
+          -0.05361038073897362,
+          0.007000000216066837
+        ],
+        [
+          -2.318548197877135e-08,
+          0.5387775897979736,
+          -0.8424479961395264,
+          4.180000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.13057172298431396
+      ],
+      "first_vertex_world": [
+        -1.429999828338623,
+        4.656612873077393e-10,
+        4.070000648498535
+      ]
+    },
+    {
+      "name": "Shield | boss bronze collar",
+      "vertices": 384,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          -1.0,
+          -0.8730000257492065
+        ],
+        [
+          0.0,
+          1.0,
+          7.549790126404332e-08,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.22599999606609344,
+        0.0,
+        0.0
+      ],
+      "first_vertex_world": [
+        2.2760000228881836,
+        -0.8730000257492065,
+        3.299999952316284
+      ]
+    },
+    {
+      "name": "Shield | boss mounting plate",
+      "vertices": 64,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -0.8474999666213989
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.23499999940395355,
+        -0.01750001311302185
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.8299999833106995,
+        3.5349998474121094
+      ]
+    },
+    {
+      "name": "Shield | boss rivet 00",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.014999999664723873,
+          0.0,
+          0.0,
+          2.240999937057495
+        ],
+        [
+          0.0,
+          0.010999999940395355,
+          0.0,
+          -0.890999972820282
+        ],
+        [
+          0.0,
+          0.0,
+          0.014999999664723873,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.240999937057495,
+        -0.890999972820282,
+        3.315000057220459
+      ]
+    },
+    {
+      "name": "Shield | boss rivet 01",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.014999999664723873,
+          0.0,
+          0.0,
+          2.1454999446868896
+        ],
+        [
+          0.0,
+          0.010999999940395355,
+          0.0,
+          -0.890999972820282
+        ],
+        [
+          0.0,
+          0.0,
+          0.014999999664723873,
+          3.4654109477996826
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.1454999446868896,
+        -0.890999972820282,
+        3.4804110527038574
+      ]
+    },
+    {
+      "name": "Shield | boss rivet 02",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.014999999664723873,
+          0.0,
+          0.0,
+          1.9544999599456787
+        ],
+        [
+          0.0,
+          0.010999999940395355,
+          0.0,
+          -0.890999972820282
+        ],
+        [
+          0.0,
+          0.0,
+          0.014999999664723873,
+          3.4654109477996826
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.9544999599456787,
+        -0.890999972820282,
+        3.4804110527038574
+      ]
+    },
+    {
+      "name": "Shield | boss rivet 03",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.014999999664723873,
+          0.0,
+          0.0,
+          1.8589999675750732
+        ],
+        [
+          0.0,
+          0.010999999940395355,
+          0.0,
+          -0.890999972820282
+        ],
+        [
+          0.0,
+          0.0,
+          0.014999999664723873,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.8589999675750732,
+        -0.890999972820282,
+        3.315000057220459
+      ]
+    },
+    {
+      "name": "Shield | boss rivet 04",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.014999999664723873,
+          0.0,
+          0.0,
+          1.9544999599456787
+        ],
+        [
+          0.0,
+          0.010999999940395355,
+          0.0,
+          -0.890999972820282
+        ],
+        [
+          0.0,
+          0.0,
+          0.014999999664723873,
+          3.134589195251465
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.9544999599456787,
+        -0.890999972820282,
+        3.1495893001556396
+      ]
+    },
+    {
+      "name": "Shield | boss rivet 05",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.014999999664723873,
+          0.0,
+          0.0,
+          2.1454999446868896
+        ],
+        [
+          0.0,
+          0.010999999940395355,
+          0.0,
+          -0.890999972820282
+        ],
+        [
+          0.0,
+          0.0,
+          0.014999999664723873,
+          3.134589195251465
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.1454999446868896,
+        -0.890999972820282,
+        3.1495893001556396
+      ]
+    },
+    {
+      "name": "Shield | broad forged rim",
+      "vertices": 512,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        2.6050000190734863,
+        -0.8410000205039978,
+        3.299999952316284
+      ],
+      "first_vertex_world": [
+        2.6050000190734863,
+        -0.8410000205039978,
+        3.299999952316284
+      ]
+    },
+    {
+      "name": "Shield | burnished outer lip",
+      "vertices": 384,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          -1.0,
+          -0.8519999980926514
+        ],
+        [
+          0.0,
+          1.0,
+          7.549790126404332e-08,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.6610000133514404,
+        0.0,
+        0.0
+      ],
+      "first_vertex_world": [
+        2.7109999656677246,
+        -0.8519999980926514,
+        3.299999952316284
+      ]
+    },
+    {
+      "name": "Shield | central spike",
+      "vertices": 16,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -1.1100000143051147
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.07199999690055847,
+        -0.10000002384185791
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -1.0099999904632568,
+        3.371999979019165
+      ]
+    },
+    {
+      "name": "Shield | grip iron bracket",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          -1.1399865765455465e-14,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          1.0,
+          -0.5900000333786011
+        ],
+        [
+          1.5099580252808664e-07,
+          1.0,
+          -7.549790126404332e-08,
+          3.0399999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04899999871850014,
+        -0.07000002264976501
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.6600000262260437,
+        3.0889999866485596
+      ]
+    },
+    {
+      "name": "Shield | grip iron bracket.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          -1.1399865765455465e-14,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          1.0,
+          -0.5900000333786011
+        ],
+        [
+          1.5099580252808664e-07,
+          1.0,
+          -7.549790126404332e-08,
+          3.559999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04899999871850014,
+        -0.07000002264976501
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.6600000262260437,
+        3.6089999675750732
+      ]
+    },
+    {
+      "name": "Shield | inner iron backing",
+      "vertices": 96,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -0.6349999904632568
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.6240000128746033,
+        -0.014999985694885254
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.6200001239776611,
+        3.9240000247955322
+      ]
+    },
+    {
+      "name": "Shield | narrow bronze inner lip",
+      "vertices": 384,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          -1.0,
+          -0.8519999980926514
+        ],
+        [
+          0.0,
+          1.0,
+          7.549790126404332e-08,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.5760000348091125,
+        0.0,
+        0.0
+      ],
+      "first_vertex_world": [
+        2.625999927520752,
+        -0.8519999980926514,
+        3.299999952316284
+      ]
+    },
+    {
+      "name": "Shield | raised steel boss",
+      "vertices": 80,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        2.252000093460083,
+        -0.8700000047683716,
+        3.299999952316284
+      ],
+      "first_vertex_world": [
+        2.252000093460083,
+        -0.8700000047683716,
+        3.299999952316284
+      ]
+    },
+    {
+      "name": "Shield | rear wooden grip",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -0.5199999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.04600000008940697,
+        -0.26999998092651367
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.5659999847412109,
+        3.0299999713897705
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 00",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.6559998989105225
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.6559998989105225,
+        -0.8899999856948853,
+        3.3239998817443848
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 01",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.6098709106445312
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.5319061279296875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.6098709106445312,
+        -0.8899999856948853,
+        3.555906057357788
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 02",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.4785068035125732
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.7285068035125732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.4785068035125732,
+        -0.8899999856948853,
+        3.752506732940674
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 03",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.2819061279296875
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.8598709106445312
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.2819061279296875,
+        -0.8899999856948853,
+        3.883870840072632
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 04",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.9059998989105225
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.8899999856948853,
+        3.929999828338623
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 05",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.8180938959121704
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.8598709106445312
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.8180938959121704,
+        -0.8899999856948853,
+        3.883870840072632
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 06",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.6214933395385742
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.7285068035125732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.6214933395385742,
+        -0.8899999856948853,
+        3.752506732940674
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 07",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.490128993988037
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.5319061279296875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.490128993988037,
+        -0.8899999856948853,
+        3.555906057357788
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 08",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.444000005722046
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.444000005722046,
+        -0.8899999856948853,
+        3.3239998817443848
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 09",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.490128993988037
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.068093776702881
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.490128993988037,
+        -0.8899999856948853,
+        3.0920937061309814
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 10",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.6214933395385742
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          2.871493339538574
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.6214933395385742,
+        -0.8899999856948853,
+        2.895493268966675
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 11",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          1.8180938959121704
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          2.740128993988037
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        1.8180938959121704,
+        -0.8899999856948853,
+        2.7641289234161377
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 12",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          2.694000005722046
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.049999952316284,
+        -0.8899999856948853,
+        2.7179999351501465
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 13",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.2819061279296875
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          2.740128993988037
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.2819061279296875,
+        -0.8899999856948853,
+        2.7641289234161377
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 14",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.4785068035125732
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          2.871493339538574
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.4785068035125732,
+        -0.8899999856948853,
+        2.895493268966675
+      ]
+    },
+    {
+      "name": "Shield | rim rivet 15",
+      "vertices": 86,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.024000000208616257,
+          0.0,
+          0.0,
+          2.6098709106445312
+        ],
+        [
+          0.0,
+          0.012000000104308128,
+          0.0,
+          -0.8899999856948853
+        ],
+        [
+          0.0,
+          0.0,
+          0.024000000208616257,
+          3.068093776702881
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "first_vertex_world": [
+        2.6098709106445312,
+        -0.8899999856948853,
+        3.0920937061309814
+      ]
+    },
+    {
+      "name": "Shield | timber plank 01",
+      "vertices": 48,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.6483333110809326,
+        -0.8199999928474426,
+        3.734473705291748
+      ],
+      "first_vertex_world": [
+        1.6483333110809326,
+        -0.8199999928474426,
+        3.734473705291748
+      ]
+    },
+    {
+      "name": "Shield | timber plank 02",
+      "vertices": 28,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.8456666469573975,
+        -0.8199999928474426,
+        3.855297803878784
+      ],
+      "first_vertex_world": [
+        1.8456666469573975,
+        -0.8199999928474426,
+        3.855297803878784
+      ]
+    },
+    {
+      "name": "Shield | timber plank 03",
+      "vertices": 28,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        2.0429999828338623,
+        -0.8199999928474426,
+        3.891770839691162
+      ],
+      "first_vertex_world": [
+        2.0429999828338623,
+        -0.8199999928474426,
+        3.891770839691162
+      ]
+    },
+    {
+      "name": "Shield | timber plank 04",
+      "vertices": 28,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        2.240333318710327,
+        -0.8199999928474426,
+        3.860567092895508
+      ],
+      "first_vertex_world": [
+        2.240333318710327,
+        -0.8199999928474426,
+        3.860567092895508
+      ]
+    },
+    {
+      "name": "Shield | timber plank 05",
+      "vertices": 28,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        2.437666654586792,
+        -0.8199999928474426,
+        3.74727725982666
+      ],
+      "first_vertex_world": [
+        2.437666654586792,
+        -0.8199999928474426,
+        3.74727725982666
+      ]
+    },
+    {
+      "name": "Shield | timber plank 06",
+      "vertices": 48,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        2.634999990463257,
+        -0.8199999928474426,
+        3.388993740081787
+      ],
+      "first_vertex_world": [
+        2.634999990463257,
+        -0.8199999928474426,
+        3.388993740081787
+      ]
+    },
+    {
+      "name": "Shield | worn crimson slash 00",
+      "vertices": 8,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.7200000286102295,
+        -0.8330000042915344,
+        3.6600000858306885
+      ],
+      "first_vertex_world": [
+        1.7200000286102295,
+        -0.8330000042915344,
+        3.6600000858306885
+      ]
+    },
+    {
+      "name": "Shield | worn crimson slash 01",
+      "vertices": 8,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        1.9299999475479126,
+        -0.8330000042915344,
+        3.740000009536743
+      ],
+      "first_vertex_world": [
+        1.9299999475479126,
+        -0.8330000042915344,
+        3.740000009536743
+      ]
+    },
+    {
+      "name": "Slit pupil",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.24199999868869781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5759999752044678
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.75600004196167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.05000000074505806
+      ],
+      "first_vertex_world": [
+        -0.24199999868869781,
+        -0.5759999752044678,
+        5.806000232696533
+      ]
+    },
+    {
+      "name": "Slit pupil.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.24199999868869781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5759999752044678
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.75600004196167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.05000000074505806
+      ],
+      "first_vertex_world": [
+        0.24199999868869781,
+        -0.5759999752044678,
+        5.806000232696533
+      ]
+    },
+    {
+      "name": "Small lower tooth",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.14000000059604645
+        ],
+        [
+          0.0,
+          0.9918814897537231,
+          -0.12716567516326904,
+          -0.7480000257492065
+        ],
+        [
+          0.0,
+          0.12716567516326904,
+          0.9918814897537231,
+          5.24399995803833
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.03799999877810478,
+        -0.0393192432820797
+      ],
+      "first_vertex_world": [
+        -0.14000000059604645,
+        -0.7053084969520569,
+        5.209832191467285
+      ]
+    },
+    {
+      "name": "Small lower tooth.001",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9918814897537231,
+          -0.12716567516326904,
+          -0.7480000257492065
+        ],
+        [
+          0.0,
+          0.12716567516326904,
+          0.9918814897537231,
+          5.24399995803833
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.03799999877810478,
+        -0.0393192432820797
+      ],
+      "first_vertex_world": [
+        0.0,
+        -0.7053084969520569,
+        5.209832191467285
+      ]
+    },
+    {
+      "name": "Small lower tooth.002",
+      "vertices": 20,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.14000000059604645
+        ],
+        [
+          0.0,
+          0.9918814897537231,
+          -0.12716567516326904,
+          -0.7480000257492065
+        ],
+        [
+          0.0,
+          0.12716567516326904,
+          0.9918814897537231,
+          5.24399995803833
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.03799999877810478,
+        -0.0393192432820797
+      ],
+      "first_vertex_world": [
+        0.14000000059604645,
+        -0.7053084969520569,
+        5.209832191467285
+      ]
+    },
+    {
+      "name": "Spike brass socket",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.12403566390275955,
+          -0.9901040196418762,
+          0.06564497202634811,
+          1.1038000583648682
+        ],
+        [
+          0.9922778010368347,
+          0.12376395612955093,
+          -0.008205446414649487,
+          0.014525000005960464
+        ],
+        [
+          -2.385515074365685e-07,
+          0.0661558136343956,
+          0.9978092908859253,
+          5.049759864807129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.18000000715255737,
+        -0.05788681283593178
+      ],
+      "first_vertex_world": [
+        0.9217813611030579,
+        0.037277501076459885,
+        5.003907680511475
+      ]
+    },
+    {
+      "name": "Spike brass socket.001",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -0.04756496474146843,
+          -0.6973409652709961,
+          0.7151594758033752,
+          1.5599000453948975
+        ],
+        [
+          0.9988681077957153,
+          -0.033206626772880554,
+          0.03405505046248436,
+          0.03189999982714653
+        ],
+        [
+          6.304008337565392e-08,
+          0.7159698605537415,
+          0.6981311440467834,
+          4.918950080871582
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.16200000047683716,
+        -0.05579175800085068
+      ],
+      "first_vertex_world": [
+        1.4070308208465576,
+        0.024620534852147102,
+        4.995987415313721
+      ]
+    },
+    {
+      "name": "Spike brass socket.002",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.8035572171211243,
+          -0.4769406020641327,
+          0.35612285137176514,
+          1.3389999866485596
+        ],
+        [
+          0.5952275395393372,
+          0.6438698172569275,
+          -0.4807659089565277,
+          -0.40564998984336853
+        ],
+        [
+          4.884069149113657e-09,
+          0.5982970595359802,
+          0.8012744188308716,
+          4.882750034332275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.1379999965429306,
+        -0.05335235968232155
+      ],
+      "first_vertex_world": [
+        1.25418221950531,
+        -0.2911459505558014,
+        4.92256498336792
+      ]
+    },
+    {
+      "name": "Spike brass socket.003",
+      "vertices": 24,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          -0.8741574883460999,
+          -0.3974847197532654,
+          0.27902403473854065,
+          1.3042500019073486
+        ],
+        [
+          0.48564237356185913,
+          -0.7154735326766968,
+          0.5022438764572144,
+          0.4256500005722046
+        ],
+        [
+          6.41965058889582e-08,
+          0.5745461583137512,
+          0.818472146987915,
+          4.881800174713135
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.1379999965429306,
+        -0.051070794463157654
+      ],
+      "first_vertex_world": [
+        1.2351471185684204,
+        0.3012646436691284,
+        4.91928768157959
+      ]
+    },
+    {
+      "name": "Steel kneecap",
+      "vertices": 178,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6809999942779541
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.30799999833106995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6799999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.20000000298023224
+      ],
+      "first_vertex_world": [
+        -0.6809999942779541,
+        -0.30799999833106995,
+        1.8799999952316284
+      ]
+    },
+    {
+      "name": "Steel kneecap.001",
+      "vertices": 178,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6809999942779541
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.30799999833106995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6799999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.20000000298023224
+      ],
+      "first_vertex_world": [
+        0.6809999942779541,
+        -0.30799999833106995,
+        1.8799999952316284
+      ]
+    },
+    {
+      "name": "Studio ground",
+      "vertices": 4,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0949999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -100.0,
+        -100.0,
+        0.0
+      ],
+      "first_vertex_world": [
+        -100.0,
+        -100.0,
+        -0.0949999988079071
+      ]
+    },
+    {
+      "name": "Swept mohawk lock",
+      "vertices": 40,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1900000274181366,
+        -0.2500000298023224,
+        6.203388214111328
+      ],
+      "first_vertex_world": [
+        -0.1900000274181366,
+        -0.2500000298023224,
+        6.203388214111328
+      ]
+    },
+    {
+      "name": "Swept mohawk lock.001",
+      "vertices": 40,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1900000423192978,
+        -0.13500002026557922,
+        6.23818302154541
+      ],
+      "first_vertex_world": [
+        -0.1900000423192978,
+        -0.13500002026557922,
+        6.23818302154541
+      ]
+    },
+    {
+      "name": "Swept mohawk lock.002",
+      "vertices": 40,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1899999976158142,
+        -0.020000016316771507,
+        6.257493019104004
+      ],
+      "first_vertex_world": [
+        -0.1899999976158142,
+        -0.020000016316771507,
+        6.257493019104004
+      ]
+    },
+    {
+      "name": "Swept mohawk lock.003",
+      "vertices": 40,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1899999976158142,
+        0.09499998390674591,
+        6.257493019104004
+      ],
+      "first_vertex_world": [
+        -0.1899999976158142,
+        0.09499998390674591,
+        6.257493019104004
+      ]
+    },
+    {
+      "name": "Swept mohawk lock.004",
+      "vertices": 40,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1900000274181366,
+        0.20999997854232788,
+        6.23818302154541
+      ],
+      "first_vertex_world": [
+        -0.1900000274181366,
+        0.20999997854232788,
+        6.23818302154541
+      ]
+    },
+    {
+      "name": "Swept mohawk lock.005",
+      "vertices": 40,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.1900000423192978,
+        0.32499995827674866,
+        6.203388214111328
+      ],
+      "first_vertex_world": [
+        -0.1900000423192978,
+        0.32499995827674866,
+        6.203388214111328
+      ]
+    },
+    {
+      "name": "Tabard angular clan rune",
+      "vertices": 6,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.10000000149011612,
+        -0.6809999942779541,
+        2.559999942779541
+      ],
+      "first_vertex_world": [
+        -0.10000000149011612,
+        -0.6809999942779541,
+        2.559999942779541
+      ]
+    },
+    {
+      "name": "Temple swept lock",
+      "vertices": 30,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.49370741844177246,
+        0.024382103234529495,
+        5.960000038146973
+      ],
+      "first_vertex_world": [
+        -0.49370741844177246,
+        0.024382103234529495,
+        5.960000038146973
+      ]
+    },
+    {
+      "name": "Temple swept lock.001",
+      "vertices": 30,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.49370741844177246,
+        0.13438212871551514,
+        5.960000038146973
+      ],
+      "first_vertex_world": [
+        -0.49370741844177246,
+        0.13438212871551514,
+        5.960000038146973
+      ]
+    },
+    {
+      "name": "Temple swept lock.002",
+      "vertices": 30,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        -0.49370741844177246,
+        0.2443821132183075,
+        5.960000038146973
+      ],
+      "first_vertex_world": [
+        -0.49370741844177246,
+        0.2443821132183075,
+        5.960000038146973
+      ]
+    },
+    {
+      "name": "Temple swept lock.003",
+      "vertices": 30,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.3062925934791565,
+        0.05561789497733116,
+        5.960000038146973
+      ],
+      "first_vertex_world": [
+        0.3062925934791565,
+        0.05561789497733116,
+        5.960000038146973
+      ]
+    },
+    {
+      "name": "Temple swept lock.004",
+      "vertices": 30,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.3062925934791565,
+        0.16561788320541382,
+        5.960000038146973
+      ],
+      "first_vertex_world": [
+        0.3062925934791565,
+        0.16561788320541382,
+        5.960000038146973
+      ]
+    },
+    {
+      "name": "Temple swept lock.005",
+      "vertices": 30,
+      "identity_matrix_world": true,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.3062925934791565,
+        0.2756178677082062,
+        5.960000038146973
+      ],
+      "first_vertex_world": [
+        0.3062925934791565,
+        0.2756178677082062,
+        5.960000038146973
+      ]
+    },
+    {
+      "name": "Tusk brass cuff",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.8643483519554138,
+          0.3145093321800232,
+          -0.3924102187156677,
+          -0.3440000116825104
+        ],
+        [
+          -0.5028935074806213,
+          0.5405630469322205,
+          -0.6744551062583923,
+          -0.6814999580383301
+        ],
+        [
+          2.721392355908847e-08,
+          0.7803047299385071,
+          0.6253994703292847,
+          5.18149995803833
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.1080000028014183,
+        -0.040773656219244
+      ],
+      "first_vertex_world": [
+        -0.2940329909324646,
+        -0.5956191420555115,
+        5.2402729988098145
+      ]
+    },
+    {
+      "name": "Tusk brass cuff.001",
+      "vertices": 32,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          0.8643483519554138,
+          -0.3145093321800232,
+          0.3924102187156677,
+          0.3440000116825104
+        ],
+        [
+          0.5028935074806213,
+          0.5405630469322205,
+          -0.6744551062583923,
+          -0.6814999580383301
+        ],
+        [
+          -2.721392355908847e-08,
+          0.7803047299385071,
+          0.6253994703292847,
+          5.18149995803833
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.1080000028014183,
+        -0.040773656219244
+      ],
+      "first_vertex_world": [
+        0.2940329909324646,
+        -0.5956191420555115,
+        5.2402729988098145
+      ]
+    },
+    {
+      "name": "Upper armband brass clasp",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.2999999523162842
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.32199999690055847
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.269999980926514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04699999839067459
+      ],
+      "first_vertex_world": [
+        -1.2999999523162842,
+        -0.32199999690055847,
+        4.316999912261963
+      ]
+    },
+    {
+      "name": "Upper armband brass clasp.001",
+      "vertices": 610,
+      "identity_matrix_world": false,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.4199999570846558
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.32199999690055847
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.110000133514404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "first_vertex_local": [
+        0.0,
+        0.0,
+        0.04699999839067459
+      ],
+      "first_vertex_world": [
+        -1.4199999570846558,
+        -0.32199999690055847,
+        4.1570000648498535
+      ]
+    }
+  ],
+  "action_api_probe": {
+    "has_fcurves_attribute": false,
+    "action_slot": "OB__rig_api_probe__",
+    "slots": [
+      "OB__rig_api_probe__"
+    ],
+    "layers": [
+      {
+        "name": "Layer",
+        "strips": [
+          {
+            "type": "KEYFRAME",
+            "has_channelbag": true,
+            "has_channelbags": true,
+            "slot_channelbag_fcurves": [
+              {
+                "data_path": "location",
+                "array_index": 0,
+                "keyframes": 2
+              },
+              {
+                "data_path": "location",
+                "array_index": 1,
+                "keyframes": 2
+              },
+              {
+                "data_path": "location",
+                "array_index": 2,
+                "keyframes": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "action_get_channelbag_for_slot_works": 3
+  },
+  "gltf_parameters": {
+    "export_apply": {
+      "type": "BOOLEAN",
+      "description": "Apply modifiers (excluding Armatures) to mesh objects -WARNING: prevents exporting shape keys",
+      "default": false
+    },
+    "export_animations": {
+      "type": "BOOLEAN",
+      "description": "Exports active actions and NLA tracks as glTF animations",
+      "default": true
+    },
+    "export_frame_range": {
+      "type": "BOOLEAN",
+      "description": "Clips animations to selected playback range",
+      "default": false
+    },
+    "export_frame_step": {
+      "type": "INT",
+      "description": "How often to evaluate animated values (in frames)",
+      "default": 1
+    },
+    "export_force_sampling": {
+      "type": "BOOLEAN",
+      "description": "Apply sampling to all animations",
+      "default": true
+    },
+    "export_sampling_interpolation_fallback": {
+      "type": "ENUM",
+      "description": "Interpolation fallback for sampled animations, when the property is not keyed",
+      "default": "LINEAR",
+      "enum_items": [
+        "LINEAR",
+        "STEP"
+      ]
+    },
+    "export_pointer_animation": {
+      "type": "BOOLEAN",
+      "description": "Export material, Light & Camera animation as Animation Pointer. Available only for baked animation mode 'NLA Tracks' and 'Scene'",
+      "default": false
+    },
+    "export_animation_mode": {
+      "type": "ENUM",
+      "description": "Export Animation mode",
+      "default": "ACTIONS",
+      "enum_items": [
+        "ACTIONS",
+        "ACTIVE_ACTIONS",
+        "BROADCAST",
+        "NLA_TRACKS",
+        "SCENE"
+      ]
+    },
+    "export_nla_strips_merged_animation_name": {
+      "type": "STRING",
+      "description": "Name of single glTF animation to be exported",
+      "default": "Animation"
+    },
+    "export_def_bones": {
+      "type": "BOOLEAN",
+      "description": "Export Deformation bones only",
+      "default": false
+    },
+    "export_hierarchy_flatten_bones": {
+      "type": "BOOLEAN",
+      "description": "Flatten Bone Hierarchy. Useful in case of non decomposable transformation matrix",
+      "default": false
+    },
+    "export_leaf_bone": {
+      "type": "BOOLEAN",
+      "description": "Append a final bone to the end of each chain to specify last bone length (use this when you intend to edit the armature from exported data)",
+      "default": false
+    },
+    "export_optimize_animation_size": {
+      "type": "BOOLEAN",
+      "description": "Reduce exported file size by removing duplicate keyframes",
+      "default": true
+    },
+    "export_optimize_animation_keep_anim_armature": {
+      "type": "BOOLEAN",
+      "description": "If all keyframes are identical in a rig, force keeping the minimal animation. When off, all possible channels for the bones will be exported, even if empty (minimal animation, 2 keyframes)",
+      "default": true
+    },
+    "export_optimize_animation_keep_anim_object": {
+      "type": "BOOLEAN",
+      "description": "If all keyframes are identical for object transformations, force keeping the minimal animation",
+      "default": false
+    },
+    "export_negative_frame": {
+      "type": "ENUM",
+      "description": "Negative Frames are slid or cropped",
+      "default": "SLIDE",
+      "enum_items": [
+        "SLIDE",
+        "CROP"
+      ]
+    },
+    "export_anim_slide_to_zero": {
+      "type": "BOOLEAN",
+      "description": "Set all glTF animation starting at 0.0s. Can be useful for looping animations",
+      "default": false
+    },
+    "export_bake_animation": {
+      "type": "BOOLEAN",
+      "description": "Force exporting animation on every object. Can be useful when using constraints or driver. Also useful when exporting only selection",
+      "default": false
+    },
+    "export_merge_animation": {
+      "type": "ENUM",
+      "description": "Merge Animations",
+      "default": "ACTION",
+      "enum_items": [
+        "NLA_TRACK",
+        "ACTION",
+        "NONE"
+      ]
+    },
+    "export_anim_single_armature": {
+      "type": "BOOLEAN",
+      "description": "Export all actions, bound to a single armature. WARNING: Option does not support exports including multiple armatures",
+      "default": true
+    },
+    "export_reset_pose_bones": {
+      "type": "BOOLEAN",
+      "description": "Reset pose bones between each action exported. This is needed when some bones are not keyed on some animations",
+      "default": true
+    },
+    "export_current_frame": {
+      "type": "BOOLEAN",
+      "description": "Export the scene in the current animation frame. When off, frame 0 is used as rest transformations for objects",
+      "default": false
+    },
+    "export_anim_scene_split_object": {
+      "type": "BOOLEAN",
+      "description": "Export Scene as seen in Viewport, But split animation by Object",
+      "default": true
+    },
+    "export_skins": {
+      "type": "BOOLEAN",
+      "description": "Export skinning (armature) data",
+      "default": true
+    },
+    "export_morph_animation": {
+      "type": "BOOLEAN",
+      "description": "Export shape keys animations (morph targets)",
+      "default": true
+    },
+    "export_action_filter": {
+      "type": "BOOLEAN",
+      "description": "Filter Actions to be exported",
+      "default": false
+    },
+    "export_convert_animation_pointer": {
+      "type": "BOOLEAN",
+      "description": "Export TRS and weights as Animation Pointer. Using KHR_animation_pointer extension",
+      "default": false
+    },
+    "export_nla_strips": {
+      "type": "BOOLEAN",
+      "description": "When on, multiple actions become part of the same glTF animation if they're pushed onto NLA tracks with the same name. When off, all the currently assigned actions become one glTF animation",
+      "default": true
+    },
+    "export_extra_animations": {
+      "type": "BOOLEAN",
+      "description": "Export additional animations.\nThis feature is not standard and needs an external extension to be included in the glTF file",
+      "default": false
+    }
+  },
+  "ffmpeg": {
+    "build_option_ffmpeg": null,
+    "has_render_ffmpeg": true,
+    "file_formats": [
+      "AVIF",
+      "JPEG",
+      "OPEN_EXR",
+      "PNG",
+      "WEBP",
+      "BMP",
+      "CINEON",
+      "DPX",
+      "IRIS",
+      "JPEG2000",
+      "HDR",
+      "TARGA",
+      "TARGA_RAW",
+      "TIFF",
+      "OPEN_EXR_MULTILAYER",
+      "FFMPEG"
+    ],
+    "format": {
+      "current": "MPEG1",
+      "values": [
+        "MPEG4",
+        "MKV",
+        "WEBM",
+        "AVI",
+        "DV",
+        "FLASH",
+        "MPEG1",
+        "MPEG2",
+        "OGG",
+        "QUICKTIME"
+      ]
+    },
+    "codec": {
+      "current": "NONE",
+      "values": [
+        "NONE",
+        "AV1",
+        "H264",
+        "H265",
+        "WEBM",
+        "DNXHD",
+        "DV",
+        "FFV1",
+        "FLASH",
+        "HUFFYUV",
+        "MPEG1",
+        "MPEG2",
+        "MPEG4",
+        "PNG",
+        "PRORES",
+        "QTRLE",
+        "THEORA"
+      ]
+    },
+    "constant_rate_factor": {
+      "current": "NONE",
+      "values": [
+        "NONE",
+        "LOSSLESS",
+        "PERC_LOSSLESS",
+        "HIGH",
+        "MEDIUM",
+        "LOW",
+        "VERYLOW",
+        "LOWEST",
+        "CUSTOM"
+      ]
+    },
+    "ffmpeg_preset": {
+      "current": "GOOD",
+      "values": [
+        "BEST",
+        "GOOD",
+        "REALTIME"
+      ]
+    },
+    "audio_codec": {
+      "current": "NONE",
+      "values": [
+        "NONE",
+        "AAC",
+        "AC3",
+        "FLAC",
+        "MP2",
+        "MP3",
+        "OPUS",
+        "PCM",
+        "VORBIS"
+      ]
+    }
+  }
+}

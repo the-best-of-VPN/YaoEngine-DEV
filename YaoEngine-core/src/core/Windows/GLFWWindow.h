@@ -3,6 +3,7 @@
 #include<GLFW/glfw3.h>
 #include<functional>
 #include<Event/Event.h>
+#include<tracy/Tracy.hpp>
 namespace YaoEngine
 {
 	class GLFWWindow : public YaoWindow
@@ -17,6 +18,7 @@ namespace YaoEngine
 		
 		};
 		virtual void Clear() override {  
+			ZoneScopedN("Clear");
 		glClearColor(0.7f, 0.1f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 		};

@@ -8,11 +8,12 @@
 #include"core/Time/Time.h"
 #include"core/ScriptEngine/ScriptEngine.h"
 #include<Header.cuh>
-
+#include<tracy/Tracy.hpp>
 namespace YaoEngine {
 	YaoEngine* YaoEngine::m_instance = nullptr;
 
 	YaoEngine::YaoEngine() {
+		ZoneScoped;
 		assert(!m_instance);
 		m_instance = this;
 		m_window = YaoWindow::CreateWindowe();
@@ -37,6 +38,7 @@ namespace YaoEngine {
 		}
 	}
 	void YaoEngine::OnEvent(Event& e) {
+		ZoneScoped;
 		EventDispatcher dispatcher(e);
 		dispatcher.Dispatch<WindowCloseEvent>(
 			[this](Event& e) { return this->WindowClose(e); });
@@ -52,9 +54,11 @@ namespace YaoEngine {
 		}
 	}
 	void YaoEngine::run() {
+		ZoneScopedN("YaoEngine::run");
 		while (m_running)
 		{
 			m_window->Clear();
+			m_window->OnUpdate();
 			Time::Update();
 			Input::OnUpdate();
 			float Timestep = Time::DeltaTime();
@@ -77,6 +81,6 @@ namespace YaoEngine {
 		glViewport(0, 0, event.GetWidth(), event.GetHeight());
 		return false;
 	}
-
+	
 }
 

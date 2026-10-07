@@ -1,0 +1,18 @@
+{
+  "01 • Body sculpt": {
+    "objects": 1,
+    "triangles": 45256
+  },
+  "02 • Face, tusks & hair": {
+    "objects": 43,
+    "triangles": 40426
+  },
+  "03 • Forged armor & leather": {
+    "objects": 132,
+    "triangles": 25693
+  },
+  "04 • Axe & shield": {
+    "objects": 90,
+    "triangles": 16486
+  }
+}

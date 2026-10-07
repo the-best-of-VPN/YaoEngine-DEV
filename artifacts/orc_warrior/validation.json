@@ -1,0 +1,14 @@
+{
+  "blender_version": "5.1.0",
+  "blend_reopened": true,
+  "glb_version": 2,
+  "glb_bytes": 3441232,
+  "glb_meshes": 266,
+  "glb_materials": 16,
+  "external_libraries": 0,
+  "rigged": false,
+  "hero_render": [
+    1400,
+    1680
+  ]
+}

@@ -1,13 +1,14 @@
 #pragma once
 
 #include <chrono>
-
+#include<tracy/Tracy.hpp>
 namespace YaoEngine {
 
 	class Time
 	{
 	public:
 		static void Update() {
+			ZoneScopedN("Time update")
 			auto now = Clock::now();
 
 			s_DeltaTime =

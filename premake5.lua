@@ -1,3 +1,5 @@
+YaoPython = dofile("Script/Python.lua")
+
 workspace "YaoEngine"
     platforms {
         "x64",
@@ -47,7 +49,10 @@ workspace "YaoEngine"
         include "CUDAdemo/CUDA.lua"
         include"YaoEngine-core/Scriptcore/Scriptcore.lua"
         include"YaoEngine-core/Dep/imgui/imgui.lua"
+        include "YaoEngine-core/Dep/pybind11/pybind11.lua"
     group ""
     group "Scripting"
-      
+        if _OPTIONS["python-smoke"] then
+            include "Script/PythonSmoke/PythonSmoke.lua"
+        end
     group""

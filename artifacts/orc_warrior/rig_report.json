@@ -1,0 +1,246 @@
+{
+  "bones": 36,
+  "deform_bones": 27,
+  "skinned_objects": 266,
+  "auto_weight_error": null,
+  "repaired_body_vertices": 0,
+  "rest_ik_error": {
+    "forearm.R": 1.419569685005539e-06,
+    "shin.R": 5.135640672563688e-06,
+    "forearm.L": 1.418024934693842e-06,
+    "shin.L": 5.135954124061256e-06
+  },
+  "rigid_bindings": {
+    "head": 43,
+    "weapon.axe": 33,
+    "weapon.shield": 57,
+    "pelvis": 13,
+    "skirt.L": 8,
+    "skirt.back": 2,
+    "skirt.R": 8,
+    "skirt.front": 3,
+    "upper_arm.L": 24,
+    "upper_arm.R": 3,
+    "foot.R": 5,
+    "shin.R": 12,
+    "forearm.R": 11,
+    "foot.L": 5,
+    "shin.L": 12,
+    "forearm.L": 9,
+    "neck": 6
+  },
+  "motion": {
+    "action": "Orc | Heavy Axe Slash",
+    "frames": 72,
+    "fps": 24,
+    "duration_seconds": 3.0,
+    "minimum_blade_height": 1.76554,
+    "minimum_weapon_height": 0.8,
+    "maximum_weapon_height": 7.07068,
+    "maximum_wrist_reach_R": 1.62758,
+    "maximum_wrist_reach_L": 1.62758,
+    "maximum_wrist_target_error": 0.00019,
+    "maximum_foot_drift": 0.0,
+    "clearance_limit_blade": 1.0,
+    "sampled_keyframes": [
+      {
+        "frame": 1,
+        "right_wrist": [
+          -1.97,
+          -0.17,
+          3.115
+        ],
+        "shaft_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "minimum_blade_height": 4.09,
+        "highest_weapon_point": 5.3
+      },
+      {
+        "frame": 8,
+        "right_wrist": [
+          -2.055,
+          -0.125,
+          3.69
+        ],
+        "shaft_direction": [
+          0.1368,
+          0.1069,
+          0.9848
+        ],
+        "minimum_blade_height": 4.8012,
+        "highest_weapon_point": 6.0102
+      },
+      {
+        "frame": 14,
+        "right_wrist": [
+          -1.93,
+          0.095,
+          4.345
+        ],
+        "shaft_direction": [
+          0.0521,
+          0.371,
+          0.9272
+        ],
+        "minimum_blade_height": 5.5749,
+        "highest_weapon_point": 6.7343
+      },
+      {
+        "frame": 20,
+        "right_wrist": [
+          -1.75,
+          0.15,
+          4.65
+        ],
+        "shaft_direction": [
+          -0.1638,
+          0.504,
+          0.848
+        ],
+        "minimum_blade_height": 5.9379,
+        "highest_weapon_point": 7.017
+      },
+      {
+        "frame": 23,
+        "right_wrist": [
+          -1.685,
+          -0.06,
+          4.725
+        ],
+        "shaft_direction": [
+          -0.0377,
+          0.1159,
+          0.9925
+        ],
+        "minimum_blade_height": 5.7988,
+        "highest_weapon_point": 7.0119
+      },
+      {
+        "frame": 26,
+        "right_wrist": [
+          -1.51,
+          -0.585,
+          4.545
+        ],
+        "shaft_direction": [
+          0.1986,
+          -0.6113,
+          0.766
+        ],
+        "minimum_blade_height": 4.7327,
+        "highest_weapon_point": 6.1593
+      },
+      {
+        "frame": 29,
+        "right_wrist": [
+          -1.345,
+          -1.02,
+          4.18
+        ],
+        "shaft_direction": [
+          0.3067,
+          -0.944,
+          0.1219
+        ],
+        "minimum_blade_height": 3.1906,
+        "highest_weapon_point": 4.7734
+      },
+      {
+        "frame": 34,
+        "right_wrist": [
+          -1.29,
+          -1.04,
+          3.845
+        ],
+        "shaft_direction": [
+          0.2922,
+          -0.8992,
+          -0.3256
+        ],
+        "minimum_blade_height": 2.127,
+        "highest_weapon_point": 4.7027
+      },
+      {
+        "frame": 40,
+        "right_wrist": [
+          -1.315,
+          -0.94,
+          3.7
+        ],
+        "shaft_direction": [
+          0.2728,
+          -0.8397,
+          -0.4695
+        ],
+        "minimum_blade_height": 1.7655,
+        "highest_weapon_point": 4.8838
+      },
+      {
+        "frame": 44,
+        "right_wrist": [
+          -1.43,
+          -0.74,
+          3.705
+        ],
+        "shaft_direction": [
+          0.2416,
+          -0.9018,
+          -0.3584
+        ],
+        "minimum_blade_height": 1.9351,
+        "highest_weapon_point": 4.6373
+      },
+      {
+        "frame": 54,
+        "right_wrist": [
+          -1.875,
+          -0.49,
+          3.645
+        ],
+        "shaft_direction": [
+          -0.0326,
+          -0.933,
+          0.3584
+        ],
+        "minimum_blade_height": 3.0584,
+        "highest_weapon_point": 4.6358
+      },
+      {
+        "frame": 63,
+        "right_wrist": [
+          -2.035,
+          -0.255,
+          3.33
+        ],
+        "shaft_direction": [
+          -0.3091,
+          -0.2882,
+          0.9063
+        ],
+        "minimum_blade_height": 3.846,
+        "highest_weapon_point": 5.2027
+      },
+      {
+        "frame": 72,
+        "right_wrist": [
+          -1.97,
+          -0.17,
+          3.115
+        ],
+        "shaft_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "minimum_blade_height": 4.09,
+        "highest_weapon_point": 5.3
+      }
+    ],
+    "head_clearance_note": "Blade stays on the right during raising, then travels forward of the torso. Visual contact-sheet review remains required.",
+    "blade_height_check_passed": true,
+    "floor_check_passed": true
+  }
+}

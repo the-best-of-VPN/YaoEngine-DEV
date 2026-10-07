@@ -4,6 +4,9 @@ project "YaoEngine-Launcher"
     cppdialect "C++17"
     staticruntime "On"
 
+    YaoPython.configure()
+    YaoPython.deploy()
+
     local cudaPath = os.getenv("CUDA_PATH") or "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5"
     local cudaBinPath = path.join(cudaPath, "bin")
     local cudaLibPath = path.join(cudaPath, "lib/x64")
